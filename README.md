@@ -18,7 +18,7 @@
 ##
 
 --- 
-## [Components](docu/components.md)
+## [Components](docu/ideas/components.md)
 Besides the basic core system, it's kept very lean just to enshure it's not bloated, with only concessions being made to reduce avoidable and burdensome inconveniences and incompatibilities.
 ####
 ### [Linux Kernel](https://kernel.org)
@@ -40,9 +40,11 @@ Because [Glibc](https://en.wikipedia.org/wiki/Glibc) is a mess that tends to bri
 ##
 
 ---
+## [Project Goals](./docu/project-goals.md)
+
 ##	Target Devices
-### [Images](./imgs/) and [Supported Architectures are listed here.](docu/architectures.tsv) 
-- To be used on Systems that are being accessed via Terminals:
+### [Supported Architectures are listed here.](./docu/ideas/architectures.tsv) 
+- To be used on Systems that are being accessed via Terminals like:
   - [DEC VT320](https://www.youtube.com/watch?v=RuZUPpmXfT0)
   - [violence.works VT-69](https://www.youtube.com/watch?v=wYfpptgb6W8)
 - "Slim Clients"  & "Thin Clients"

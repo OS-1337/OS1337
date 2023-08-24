@@ -1,6 +1,6 @@
 
 ##  Component List
-####    See also [Packages](pkgs/packages.list.tsv)
+####    See also [Packages](packages.list.tsv)
 ### User Interface
   - [Fish](https://fishshell.com/) Shell for maximum user-friendlyness.
     - [Bash](https://www.gnu.org/software/bash/) Shell is only kept for compatibility and scripting reasons.

@@ -1,6 +1,6 @@
 MODE #	RESOLUTION [px]	Resolution [chars]	Resolution [char]	NOTES
 0	720 x 350	80 x 25	9 x 14	MDA / HGC Mode - default for TTY & SSH connections
-1	640 x 480	80 x 30	8 x 16	higher space option - no margins
+1	640 x 480	80 x 30	8 x 16	default for local consoles
 0	800 x 480	80 x 25	10 x 19	Widescreen Low Resolution
 2	800 x 480	100 x 30	8 x 16	Widescreen High option
 2	800 x 600	100 x 30	8 x 20	Terminal High Resolution
