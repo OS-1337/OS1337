@@ -1,0 +1,20 @@
+PRIORITY	ARCHITECTURE	BITS	ENDIANESS	NAME	TYPE	COMMENTS
+0	sources	--	--	sources	generic	source code for all shipped versions
+1	i386	32	LE	ix86	generic	32 bit Intel & AMD CPUs [BIOS]
+2	rpi0	32	LE	ARMv5 r11	custom	Image for Raspberry Pi Zero  [BCM2835 SoC]
+3	amd64	64	LE	ix86-64	generic	64 bit AMD & Intel CPUs [UEFI]
+TBD	rpi3	64	LE	ARMv7 64bit	custom	Image for Raspberry Pi 3 + CM3 [BCM2837 SoC]
+TBD	rpi4	64	LE	ARMv8-A 64bit	custom	Image for Raspberry Pi 4 + CM4 [BCM2711 SoC]
+TBD	arm11v5	32	LE	ARMv5 r11	generic	32 bit low-end ARM SoCs [boot.bin]
+TBD	arm64v7	64	LE	ARMv7 64bit	generic	64 bit low-end ARM SoCs [UEFI]
+TBD	aapple	64	LE	ARMv8.5-A 64bit	custom	Image for 'AppleSilicon' Devices [AEFI]
+TBD	p11z	32	LE	ix86	custom	Image for Sony Vaio P11Z Netbooks [Atom Z520 CPU]
+TBD	ion330	64	LE	ix86-64	custom	Image for nvidia Ion - based Nettops [Atom 330 CPU]
+TBD	ion270	32	LE	ix86	custom	Image for nvidia Ion - based Notebooks [Atom N270 CPU]
+TBD	bway	32	BE	ppc750	custom	Image for modded Nintendo Wii [Broadway CPU]
+TBD	xenon	64	BE	ppc64	custom	Image for modded Xbox 360's [Xenon CPU]
+TBD	cell	64	BE	ppc64	custom	'Other OS' ISO for modded Playstation 3 [Cell CPU]
+TBD	niagara	64	BI	SPARC v9 64bit	custom	Image for UltraSparc T2 based Servers
+TBD	xbox	32	LE	ix86	custom	Image for modded Xbox Classic [P3 CPU]
+TBD	onyx	32	BE	mips3-32	custom	Image for SGI Onyx Systems [MIPS R4400 and higher]
+TBD	itanium	64	LE	IA-64	generic	Intel Itanium-based Servers

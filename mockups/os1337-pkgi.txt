@@ -1,0 +1,25 @@
++-> OS/1337 Package Installer <-----------------------------------------------+
+| [Update Packages]  [Update enabled - all packages updated. Checked: 1h ago] |
+| [List installed Packages]                           [BASE SYSTEM INSTALLED] |
+| [Install Package(s)] [Remove Package(s)] [Search Package(s)]                |
+| [Cache Package(s) locally]               [Caching off. No Packages Cached.] |
+| [Share Package(s) in Network]            [Sharing off. No Packages Cached.] |
+| [Package Source]             [Main Repository - no Cache locally/networked] |
+|                                                                             |
+|                                                                             |
+|                                                                             |
+|                                                                             |
+|                                                                             |
+|                                                                             |
+|                                                                             |
+|                                                                             |
+|                                                                             |
+|                                                                             |
+|                                                                             |
+|                                                                             |
+|                                                                             |
+|                                                                             |
+|                                                                             |
+|                                                                             |
+|                                                                             |
++[NAV][ -> OS/1337 Package Installer <- ]                     [ !0 ][BAT:100%]+
