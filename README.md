@@ -20,24 +20,46 @@
 --- 
 ## [Components](docu/ideas/components.md)
 Besides the basic core system, it's kept very lean just to enshure it's not bloated, with only concessions being made to reduce avoidable and burdensome inconveniences and incompatibilities.
-####
+###
+
 ### [Linux Kernel](https://kernel.org)
 Simply because a battle-tested, well maintained, versatile and with ample drivers equipped Kernel exists and rewriting it solely for the purpose of not using it is at best childish if not foolish. 
 - OFC there are various other kernels that could also be used, like the ones of OpenBSD & FreeBSD or even Illumos [nee OpenSolaris] but that would just exceed the scope of this project. Feel free to DIY tho...
   - Linux as a Kernel however has by far the most versatile support for architectures and hardware installed.
-####
+###
+
 ### [Toybox Userland](https://landley.net/toybox/)
 Simply because the absolute bare-minimum System should comfortably fit on a 1.440kB FDD.
 - Toybox also [includes the most essential functions and tools](https://landley.net/toybox/help.html) so the [bare minimum system is the Toybox binary which would include the Kernel and C library](https://landley.net/toybox/faq.html#cross). 
   - Not to mention [Toybox is easy to setup](https://landley.net/toybox/faq.html#install) [and build from scratch](https://landley.net/toybox/faq.html#mkroot), which is desireable for those wanting a system that can be audited at a lower cost. 
     - OFC one could use [BusyBox](https://www.busybox.net/) or even a *BSD [Userland](https://en.wikipedia.org/wiki/User_space_and_kernel_space) if they so desire...
       - But that's NOT THE SCOPE OF THIS PROJECT!
-####
+###
+
 ### [musl C Library](https://musl.libc.org/)
 Because [Glibc](https://en.wikipedia.org/wiki/Glibc) is a mess that tends to brick systems at the slightest minor version update, basically requiring recompilation or everything.
 - This is totally impractical for anyone having to work with [CCSS](https://en.wikipedia.org/wiki/Proprietary_software) aka. [Commercial Closed Source Software](https://en.wikipedia.org/wiki/Commercial_software) and thus only gets binaryblobs to execute.
   - Also [uClibc](https://en.wikipedia.org/wiki/UClibc) and uClibc-ng are basically Abandonware at this point.
-##
+###
+
+### [spm - Simple Package Manager](https://github.com/OS-1337/spm)
+After all, even a simplistic system should have the ability to install and uninstall applications.
+- It's very bare-bones, but it does it's job... And yes it's a fork of [SSPM](https://github.com/SuperSimplePackageManager/SSPM).
+###
+
+### [pkgs - Repository](https://github.com/OS-1337/pkgs)
+Because a Package Manager without Repository is pretty much pointless.
+- Even tho it mostly contains just binaries to *yoink* and use.
+###
+
+### [default configurations](https://github.com/OS-1337/conf.d)
+To allow for easier setup and customization...
+- Also helps finding misconfigurations.
+###
+
+### [sources links](https://github.com/OS-1337/dl.srcs.d)
+To enable reproducible builds and spins.
+- Furthermore delivering transparency.
 
 ---
 ## [Project Goals](./docu/project-goals.md)
