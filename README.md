@@ -13,10 +13,6 @@
 ### Resource-Efficient
 #### "Less is more!"
 - Lack of X.org/Wayland/... and 'bloated' GUI apps per default make it extremely low-power friendly.
-- OFC one ~can~ still install classic desktop apps and have them run with a Window Manager, if one chooses to install it and the dependencies, but it's neither supported nor maintained nor recommended or part of the scope of the project.
-  - I'd happily let someone else do that - if interested in maintaining and bugfixing it.
-    - [OpenBox](http://openbox.org/wiki/Main_Page) would be recommended
-    - [Sway](https://swaywm.org/) is also an option.
 - Can run on [extemely low powered systems]((https://en.wikipedia.org/wiki/Light-weight_Linux_distribution#Comparison)).
   - [Can be run entirely from RAM](https://en.wikipedia.org/wiki/List_of_Linux_distributions_that_run_from_RAM)
 ##
@@ -45,7 +41,7 @@ Because [Glibc](https://en.wikipedia.org/wiki/Glibc) is a mess that tends to bri
 
 ---
 ##	Target Devices
-### [Images](./imgs/) and [Supported Architectures are listed here.](./imgs/architectures.tsv) 
+### [Images](./imgs/) and [Supported Architectures are listed here.](docu/architectures.tsv) 
 - To be used on Systems that are being accessed via Terminals:
   - [DEC VT320](https://www.youtube.com/watch?v=RuZUPpmXfT0)
   - [violence.works VT-69](https://www.youtube.com/watch?v=wYfpptgb6W8)
@@ -85,7 +81,7 @@ If you just want a lightweight & Portable Desktop OS, consider [Tails](https://t
 - The "base" system only adds [dropbear](https://github.com/mkj/dropbear), [enc](https://github.com/life4/enc), [ne](https://github.com/vigna/ne) and [nail](https://sourceforge.net/projects/nail/).
 - The "main" system offers [tmux](https://github.com/tmux/tmux), [curl](https://curl.se/download.html), [lynx](https://lynx.invisible-island.net), [aerc](https://git.sr.ht/~rjarry/aerc), [btop](https://github.com/aristocratos/btop), [mc](https://midnight-commander.org/), [aria2](https://github.com/aria2/aria2) on top of that.
 - The "xtra" system then includes all packages except "servers" and "development tools".
-##### A [list of all packages can be found here.](./pkgs/src.pkgs.list.tsv)
+##### A [list of all packages can be found here.](docu/pkgs/src.pkgs.list.tsv)
  
 ### Counter-Indications
 #### Please refrain from using OS/1337 if you just want to "Fuck Around and Find Out"!
