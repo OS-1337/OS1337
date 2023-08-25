@@ -44,7 +44,8 @@ Because [Glibc](https://en.wikipedia.org/wiki/Glibc) is a mess that tends to bri
 
 ### [spm - Simple Package Manager](https://github.com/OS-1337/spm)
 After all, even a simplistic system should have the ability to install and uninstall applications.
-- It's very bare-bones, but it does it's job... And yes it's a fork of [SSPM](https://github.com/SuperSimplePackageManager/SSPM).
+- It's very bare-bones, but it does it's job... 
+  - And yes it's a fork of [SSPM](https://github.com/SuperSimplePackageManager/SSPM).
 ###
 
 ### [pkgs - Repository](https://github.com/OS-1337/pkgs)
