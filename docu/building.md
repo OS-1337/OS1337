@@ -1,0 +1,64 @@
+#   OS/1337
+### Building Guide
+
+---
+##  Prerequesites
+#####   You'll need some aboslute basics in terms of tools.
+Since there are a plethera of distributions, the exact names of packages may vary greaty, but you'll find that some are pretty much universally necessary.
+- As the maintainer uses Ubunutu LTS [22.04] as of writing, these are the packages required:
+
+```
+build-essentials
+gcc
+clang
+llvm
+gcc
+make
+libncurses-dev
+flex
+bison
+openssl
+libssl-dev
+dkms
+libelf-dev
+libudev-dev
+libpci-dev
+libiberty-dev
+autoconf
+kconfig-frontends-nox
+
+```
+
+## Building Linux Kernel
+
+1. Download the latest stable release from [kernel.org](https://kernel.org/) or any mirror of your personal trust.
+2. unpack with `tar -xf ./linux-*` 
+3. rename by using ` mv ./linux-* ./linux`
+4. `cd ./linux`
+5. `make ARCH=x86 tinyconfig`
+6. `make ARCH=x86 menuconfig`
+7. enshure to select the following options as enabled:
+   - Processor type and features > Processor family > 486
+   - Device Drivers > Character devices > Enable TTY
+   - eral Setup > Configure standard kernel features (expert
+   users) > Enable support for printk
+   General Setup > Initial RAM filesystem and RAM disk
+   (initramfs/initrd)
+   - ecutable file formats > Kernel support for ELF
+   binaries
+   - ecutable file formats > Kernel support for scripts
+   starting with #!
+8. Exit configuration (yes, save settings to .config)
+9. `make ARCH=x86 bzImage` and let the compiler go brrr... ^
+   - unless you literally use a potato with a 20+ year old HDD this shouldn't take very long.
+10. `cd ./..`
+11. `mv ./linux/ arch/x86/boot/bzImage ./`
+
+#### Congratulations, you now have a kernel for [i486](https://en.wikipedia.org/wiki/I486) and anything above.
+
+
+---
+## Acknowledgements
+### Floppinux
+#### [Floppinux Manual](https://archive.org/details/floppinux-manual/)
+It has a [pretty detailed and accurate writeup](https://archive.org/download/floppinux-manual/floppinux-manual.pdf) on how to build a minimal Linux that fits in 1.440kB.

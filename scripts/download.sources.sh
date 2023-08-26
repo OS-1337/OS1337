@@ -1,6 +1,7 @@
 #! /usr/bin/env bash
 echo 'Downloading all the necessary packages...'
 
+cd ./..
 cd ./build
 echo 'Downloading latest Kernel Release [6.4.12] ...'
 
