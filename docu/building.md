@@ -52,7 +52,7 @@ kconfig-frontends-nox
 9. `make ARCH=x86 bzImage` and let the compiler go brrr... ^
    - unless you literally use a potato with a 20+ year old HDD this shouldn't take very long.
 10. `cd ./..`
-11. `mv ./linux/ arch/x86/boot/bzImage ./`
+11. `mv ./linux/arch/x86/boot/bzImage ./i486/`
 
 #### Congratulations, you now have a kernel for [i486](https://en.wikipedia.org/wiki/I486) and anything above.
 
