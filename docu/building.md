@@ -46,7 +46,10 @@ General Setup > Initial RAM filesystem and RAM disk (initramfs/initrd)
 Executable file formats > Kernel support for ELF binaries
 Executable file formats > Kernel support for scripts starting with #!
 ````
-8. Exit configuration (yes, save settings to .config)
+- Note that these are the absolute bare minimum options!
+  - These do not include any drivers for anything but a raw, local TTY console in MDA text mode with keyboard.
+    - You may want to add some basics like [ethernet] networking, filesystem support or USB to have anything remotely functional at your hands. 
+9. Exit configuration (yes, save settings to .config)
 9. `make ARCH=x86 bzImage` and let the compiler go brrr... ^
    - unless you literally use a potato with a 20+ year old HDD this shouldn't take very long.
 10. `cd ./..`
@@ -57,6 +60,7 @@ Executable file formats > Kernel support for scripts starting with #!
 
 ---
 ## Acknowledgements
+###
 ### Floppinux
 #### [Floppinux Manual](https://archive.org/details/floppinux-manual/)
 It has a [pretty detailed and accurate writeup](https://archive.org/download/floppinux-manual/floppinux-manual.pdf) on how to build a minimal Linux that fits in 1.440kB.
