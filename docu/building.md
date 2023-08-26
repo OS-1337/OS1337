@@ -38,16 +38,14 @@ kconfig-frontends-nox
 5. `make ARCH=x86 tinyconfig`
 6. `make ARCH=x86 menuconfig`
 7. enshure to select the following options as enabled:
-   - Processor type and features > Processor family > 486
-   - Device Drivers > Character devices > Enable TTY
-   - eral Setup > Configure standard kernel features (expert
-   users) > Enable support for printk
-   General Setup > Initial RAM filesystem and RAM disk
-   (initramfs/initrd)
-   - ecutable file formats > Kernel support for ELF
-   binaries
-   - ecutable file formats > Kernel support for scripts
-   starting with #!
+````
+Processor type and features > Processor family > 486
+Device Drivers > Character devices > Enable TTY
+General Setup > Configure standard kernel features (expert users) > Enable support for printk
+General Setup > Initial RAM filesystem and RAM disk (initramfs/initrd)
+Executable file formats > Kernel support for ELF binaries
+Executable file formats > Kernel support for scripts starting with #!
+````
 8. Exit configuration (yes, save settings to .config)
 9. `make ARCH=x86 bzImage` and let the compiler go brrr... ^
    - unless you literally use a potato with a 20+ year old HDD this shouldn't take very long.
