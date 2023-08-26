@@ -8,7 +8,7 @@ Since there are a plethera of distributions, the exact names of packages may var
 - As the maintainer uses Ubunutu LTS [22.04] as of writing, these are the packages required:
 
 ```
-build-essentials
+build-essential
 gcc
 clang
 llvm
@@ -26,8 +26,12 @@ libpci-dev
 libiberty-dev
 autoconf
 kconfig-frontends-nox
-
 ```
+Which can be installed on Ubuntu 22.04 just by running
+````
+sudo apt install build-essential gcc clang llvm gcc make libncurses-dev flex bison openssl libssl-dev dkms libelf-dev libudev-dev libpci-dev libiberty-dev autoconf kconfig-frontends-nox
+````
+in the terminal
 
 ## Building Linux Kernel
 
