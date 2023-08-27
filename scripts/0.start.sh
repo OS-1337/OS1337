@@ -5,3 +5,4 @@ echo 'creating folders...'
 cd ./..
 mkdir ./build
 cd ./scripts
+exit
