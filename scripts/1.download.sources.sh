@@ -16,8 +16,6 @@ echo 'Downloading musl-cross ...'
 wget https://landley.net/bin/toolchains/latest/i686-linux-musl-cross.tar.xz
 echo 'done!'
 echo ''
-echo 'Downloading latest musl Release [1.2.4] ...'
-wget https://musl.libc.org/releases/musl-1.2.4.tar.gz
 echo 'done!'
 cd ./scripts
 exit
