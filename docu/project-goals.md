@@ -6,8 +6,14 @@
 #### Create A minimalist toybox/Linux + musl distribution
 - Support amd64 hardware 
   - very ubiquitous and easy to test
-- Get the "CORE" system to fit on a 720kB 3,5" Floppy Disk
-  - If that's not possible, a 1.440kB 3,5" Floppy Disk
+- Get the "CORE" system to fit on a single 1.440kB 3,5" Floppy Disk.
+#### Core Functionality:
+- Linux Kernel
+- Toybox Userland
+- dropbear [SSH Client]
+  - Allow for username + password - based SSH logins.
+    - Basically turning a system into a "SSH Terminal"
+
 ---
 ### Secondary
 #### Expand the Scope without bloating it!
