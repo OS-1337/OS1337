@@ -9,11 +9,12 @@
 
 ## What is OS/1337 ?
 #### A minimalist Linux Distribution inspired by:
-- TinyCore
-- Floppinux
-- Terminals
-  - DEC VT-320
-  - violence.works VT-69 
+- [Floppinux](https://github.com/w84death/floppinux)
+- [TinyCore](www.tinycorelinux.net/downloads.html)
+- [Terminals](https://en.wikipedia.org/wiki/Computer_terminal)
+  - [DEC VT-320](https://en.wikipedia.org/wiki/VT320)
+    - as presented by [LGR](https://www.youtube.com/watch?v=RuZUPpmXfT0&pp=ygUNbGdyIGRldiB2dDMyMA%3D%3D)
+  - [violence.works](http://violence.works/) [VT-69](https://www.youtube.com/watch?v=wYfpptgb6W8)
 
 ---
 
