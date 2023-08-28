@@ -2,7 +2,7 @@
 echo 'building the kernel [i486]'
 
 cd ./../build/linux
-echo 'Generating .config'
+echo 'Generating linux-6.4.12-i686.config'
 make ARCH=x86 tinyconfig
 echo 'Please configure the Kernel...'
 make ARCH=x86 menuconfig

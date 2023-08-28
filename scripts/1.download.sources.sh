@@ -13,7 +13,7 @@ wget http://landley.net/toybox/downloads/toybox-0.8.10.tar.gz
 echo 'done!'
 echo ''
 echo 'Downloading musl-cross ...'
-wget https://landley.net/bin/toolchains/latest/x86_64-linux-musl-cross.tar.xz
+wget https://landley.net/bin/toolchains/latest/i686-linux-musl-cross.tar.xz
 echo 'done!'
 echo ''
 echo 'Downloading latest musl Release [1.2.4] ...'

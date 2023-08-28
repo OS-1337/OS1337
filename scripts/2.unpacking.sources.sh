@@ -11,17 +11,18 @@ echo 'done'
 echo ''
 
 echo 'unpacking Toybox Sources...'
-tar -xf ./toybox-0.8.10.tar.gz
+tar -xf toybox-0.8.10.tar.gz
 mv -r ./toybox-0.8.10 ./toybox
 echo 'done'
 
 echo ''
 
 echo 'unpacking musl-cross Sources...'
-tar -xf ./x86_64-linux-musl-cross.tar.xz
+tar -xf i686-linux-musl-cross.tar.xz
 echo 'done'
-echo 'moving musl-cross into /toybox'
-mv ./x86_64-linux-musl-cross ./toybox/
+echo 'adding musl-cross into /toybox & linux'
+cp -r ./i686-linux-musl-cross ./toybox/
+cp -r ./i686-linux-musl-cross ./linux/
 echo 'done'
 
 echo ''
