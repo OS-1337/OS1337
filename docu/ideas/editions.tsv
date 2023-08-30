@@ -1,4 +1,4 @@
-OS/1337 Version	Codename	1440kB FDD	20MB Businesscard-CD	170MB Mini-CD	600MB Businesscard-DVD	1300MB MiniDVD	2500MB MiniDVD-DL	Comments
+OS/1337 Version	Codename	1440kB FDD	20MB Businesscard-CD	170MB Mini-CD	500MB Businesscard-DVD	1300MB MiniDVD	2500MB MiniDVD-DL	Comments
 Floppy Edition	CORE	in development	-	-	-	-	-	Minimalist System to allow SSH'ing into other Systems.
 Basic Edition	MINI	-only bootfloppy-	TBA	-	-	-	-	A more workable system that can also be used to access local resources and be used as basis for a custom OS/1337 installation.
 Premium Edition	MAIN	-only bootfloppy-	-	TBA	-	-	-	Includes way more tools to make it useable as minimalist system on the go.
