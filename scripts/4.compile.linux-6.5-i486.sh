@@ -1,9 +1,9 @@
 #! /usr/bin/env bash
-echo 'building the linux [i486]'
+4.compile.linux-kernel.i686.shecho 'building the linux [i486]'
 
 cd ./../build/linux
 echo 'done! Starting to compile...'
-LDFLAGS=--static CROSS_COMPILE=i686-linux-musl-cross/bin/i686-linux-musl- make ARCH=x86 bzImage
+LDFLAGS=--static CROSS_COMPILE=i486-linux-musl-cross/bin/i486-linux-musl- make ARCH=x86 bzImage
 echo 'done!'
 
 cd ./..
