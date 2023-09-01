@@ -2,6 +2,6 @@ OS/1337 Version	Codename	1440kB FDD	20MB Businesscard-CD	170MB Mini-CD	500MB Bus
 Floppy Edition	CORE	in development	-	-	-	-	-	Minimalist System to allow SSH'ing into other Systems.
 Basic Edition	MINI	-only bootfloppy-	TBA	-	-	-	-	A more workable system that can also be used to access local resources and be used as basis for a custom OS/1337 installation.
 Premium Edition	MAIN	-only bootfloppy-	-	TBA	-	-	-	Includes way more tools to make it useable as minimalist system on the go.
-Professional Edition	XTRA	-only bootfloppy	-	-	TBA	-	-	Designed to be a TUI desktop for fans of frugal- and distraction-free computing.
-Enterprise Edition	PLUS	-only bootfloppy	-	-	-	TBA	-	Aimed to provide the most complete option with a feckton of additional tools allowing for a daily driver TUI desktop.
-Package Archive	PKGS	-	-	-	-	-	TBA	Archive of all packages to allow for manual, offline installation in airgapped envoirments.
+Professional Edition	XTRA	-only bootfloppy-	-	-	TBA	-	-	Designed to be a TUI desktop for fans of frugal- and distraction-free computing.
+Enterprise Edition	PLUS	-only bootfloppy-	-	-	-	TBA	-	Aimed to provide the most complete option with a feckton of additional tools allowing for a daily driver TUI desktop.
+Package Archive	PKGS	-not bootable-	-	-	-	-	TBA	Archive of all packages to allow for manual, offline installation in airgapped envoirments.
