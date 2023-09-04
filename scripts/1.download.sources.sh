@@ -16,6 +16,10 @@ echo 'Downloading musl-cross ...'
 wget https://landley.net/bin/toolchains/latest/i486-linux-musl-cross.tar.xz
 echo 'done!'
 echo ''
+echo 'Downloading Dropbear SSH...'
+wget https://matt.ucc.asn.au/dropbear/releases/dropbear-2022.83.tar.bz2
+echo 'done!'
+echo ''
 echo 'done!'
 cd ./scripts
 exit

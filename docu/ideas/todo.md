@@ -3,6 +3,13 @@
 
 ---
 
+## Completion
+### Test Floppy Build
+#### Test on Floppy Emulator [GOTEK 1M44]
+#### Test on real Floppy [1440kB 3,5"]
+
+---
+
 ## Bugfixing
 ### See: [Issue Tracker](https://github.com/OS-1337/OS1337/issues)
 
