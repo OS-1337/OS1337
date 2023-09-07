@@ -18,6 +18,6 @@ TBD	cell	64	BE	ppc64	custom	'Other OS' ISO for modded Playstation 3 [Cell CPU]
 TBD	broadwy	32	BE	ppc750	custom	Image for modded Nintendo Wii [Broadway CPU]
 TBD	niagara	64	BI	SPARCv9	custom	Image for UltraSparc T2 based Servers
 TBD	xbox	32	LE	i586	custom	Image for modded Xbox Classic [P3 CPU]
-TBD	onyx	64	BE	mips3	custom	Image for SGI Onyx Systems [MIPS R4400 and higher]
+TBD	sgi	64	BE	mips3	custom	Image for SGI Workstations [MIPS R4400 and higher]
 TBD	itanium	64	LE	IA64	generic	Intel Itanium-based Servers
 TBD	viaopen	32	LE	i686	custom	Image for VIA OpenBook - based Netbooks [VIA Nano CPU]
