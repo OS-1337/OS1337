@@ -102,7 +102,7 @@ If you just want a lightweight & Portable Desktop OS, consider [Tails](https://t
 - OS/1337 wants to make [TinyCore](http://www.tinycorelinux.net/) look "phat" in comparison.
   - OFC this is achieved by virtue of sacrificing a Xorg/Wayland-based GUI!
 
-#### In fact, the "core" system is just [toybox](http://www.landley.net/toybox/)/[Linux](https://kernel.org) + [musl](https://musl.libc.org).
+#### In fact, the "core" system is just [toybox](http://www.landley.net/toybox/)/[Linux](https://kernel.org) + [musl](https://musl.libc.org) with [dbclient](https://github.com/mkj/dropbear/blob/master/SMALL.md), the [SSH Client](https://en.wikipedia.org/wiki/Secure_Shell)-part of Dropbear.
 - The "base" system only adds [dropbear](https://github.com/mkj/dropbear), [enc](https://github.com/life4/enc), [ne](https://github.com/vigna/ne) and [nail](https://sourceforge.net/projects/nail/).
 - The "main" system offers [tmux](https://github.com/tmux/tmux), [curl](https://curl.se/download.html), [lynx](https://lynx.invisible-island.net), [aerc](https://git.sr.ht/~rjarry/aerc), [btop](https://github.com/aristocratos/btop), [mc](https://midnight-commander.org/), [aria2](https://github.com/aria2/aria2) on top of that.
 - The "xtra" system then includes all packages except "servers" and "development tools".
