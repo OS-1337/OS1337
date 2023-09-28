@@ -109,7 +109,7 @@ STRIP=strip
 INSTALL=install
 CPPFLAGS+= -I. -I$(srcdir)
 CFLAGS+=-D_FORTIFY_SOURCE=2 -fstack-protector-strong -fPIE -Wundef -fno-strict-overflow -Wno-pointer-sign -Os -W -Wall 
-LIBS+=
+LIBS+=-lz 
 LDFLAGS=-Wl,-z,now -Wl,-z,relro -Wl,-pie 
 
 EXEEXT=
