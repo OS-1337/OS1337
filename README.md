@@ -17,6 +17,10 @@
   - [Can be run entirely from RAM](https://en.wikipedia.org/wiki/List_of_Linux_distributions_that_run_from_RAM)
 ##
 
+---
+## [Roadmap](docu/roadmap.md)
+
+
 --- 
 ## [Components](docu/ideas/components.md)
 Besides the basic core system, it's kept very lean just to enshure it's not bloated, with only concessions being made to reduce avoidable and burdensome inconveniences and incompatibilities.
@@ -126,12 +130,35 @@ It's a wordplay upon [OS/2](https://en.wikipedia.org/wiki/OS/2), [OS/360](https:
 - Naming it OS/3 or OS/420 was deemed too risky from a trademark standpoint, and one could reason it's meant to spread confusion among users of OS/2 or the OS/360 - z/OS family.
   - Exacerbated by the fact that it's neither made nor endorsed by [IBM](https://en.wikipedia.org/wiki/IBM) and doesn't support the same [z/Architecture](https://en.wikipedia.org/wiki/Z/Architecture) as the aformentioned Mainframes.
 - It's a homage to old terminal Systems as well as to the clichee of "Hackers" that must always work with amber and/or green consoles on their ThinkPads and MacBooks wearing Fawkes Masks and black Hoodies.
+##
 ### Similar Projects
 #### [Floppinux](https://github.com/w84death/floppinux)
 Floppinux is a minimalist Linux distro designed to run from a single 3,5", 1440 KB Floppy Disk.
 - It's based on BusyBox and a current Linux Kernel.
   - But strips basically most of the unused features out of it.
-##
+###
+
+#### [Tom's Root Boot](https://en.wikipedia.org/wiki/Tomsrtbt) aka. tmsrtbt
+Which was a minimalist #Linux distro made by Thomas A. Oehser which was a popular "Rescue System" to check hardware configuration or salvage files with.
+- Sadly it seems to have been [abandoned 21 years ago](http://www.toms.net/rb/) and most likely won't even boot on modern hardware at all.
+###
+
+#### [Aboriginal Linux](http://landley.net/aboriginal/)
+A minimalist Busybox/Linux Distribution maintained by Rob Landley (the ex-maintainer of BusyBox and [now-maintainer of toybox](http://landley.net/toybox/)) which aimed to be the smallest, "self-hosting" aka. self-compiling Linux Distribution.
+###
+
+#### [mkroot](https://github.com/landley/mkroot)
+The Successor Project of Aboriginal Linux which [has been marged into toybox since 2020.](https://github.com/landley/toybox) 
+###
+#### [Firmware Linux](https://landley.net/code/firmware/old/)
+A similar project to Aboriginal Linux but predating it.
+###
+
+#### [Knoppix](https://en.wikipedia.org/wiki/Knoppix)
+Which is considered [the original Debian Live-CD](https://www.knopper.net/knoppix/index-en.html) to this day.
+- Knoppix basically popularized the whole ["Live CD"](https://en.wikipedia.org/wiki/Live_CD) mode and genre with several distros either offering said non-persistence as a benefit:
+  - For example [BackTrack](https://en.wikipedia.org/wiki/BackTrack) which was superseded by [Kali Linux](https://en.wikipedia.org/wiki/Kali_Linux).
+  - [Rescatux](https://www.supergrubdisk.org/rescatux/), [Clonezilla](https://clonezilla.org/clonezilla-live.php), [GParted live](https://gparted.org/livecd.php)  and other spechalized distros...
 
 ---
 ## "Shut Up And Let Me Download!"
@@ -139,3 +166,16 @@ Floppinux is a minimalist Linux distro designed to run from a single 3,5", 1440 
 Ready-to-Use Binary Versions are [only distributed via magnet: links](https://en.wikipedia.org/wiki/Magnet_URI_scheme) over [BitTorrent](https://en.wikipedia.org/wiki/BitTorrent) in order to enshure resilient availability and speed for everyone.
 - Just use [Transmission](https://transmissionbt.com/) or [LibreTorrent](https://f-droid.org/en/packages/org.proninyaroslav.libretorrent/) for Downloading if you don't know how.
   - If your ISP blocks BitTorrent get rid of your ISP or use a VPN.
+- Just don't be antisocial and use Tor to Torrent because all you'll do is exhaust valuable bandwith of exit nodes whilst compromizing your own anonymity.
+  - This is free software, not some pirated stuff!
+    - If you think BitTorrent has no "legitimate use" then you are banned from using OS/1337.
+  - Same goes for those that just download from the severely bandwith-restricted webseed and/or only leech the torrent.
+### And before anyone asks:
+#### YES we are aware of [ClownFlare](https://en.wikipedia.org/wiki/Cloudflare#Kiwi_Farms) existing.
+  - [Liz Fong-Jones has done a pretty good 3 part explainer series why you should never use them at all](https://www.youtube.com/watch?v=Np9erdnM4l8&list=PLI84-gNHkUdvE1u_Kfz3qS9h75n-m-T3y&pp=iAQB) and in a way more concise and understandable form without ranting than I could do.
+    - After all, [the current maintainer](https://twitter.com/k3vk4/status/1562956359686971392) pushed for [#DropKiwifarms](https://github.com/greyhat-academy/lists.d#why-use-it) on other occasions.
+##### We won't solve scalability issues by creating de-facto monopolists or oligopolists!
+- Espechally if these are [knowingly and willingly supporting Terrorism by their own admission](https://en.wikipedia.org/wiki/Cloudflare#Terrorism)  and are [more part of the Problems than Solutions](https://en.wikipedia.org/wiki/Cloudflare#Crime).
+  - ["Protecting the Good Guys for free"](https://en.wikipedia.org/wiki/Cloudflare#Response_to_the_Russian_invasion_of_Ukraine) doesn't make said business less of a [protection racket](https://en.wikipedia.org/wiki/Protection_racket) as they knowingly and willingly also host [attackers wanting to extort others for ransom](https://en.wikipedia.org/wiki/Denial-of-service_attack#DDoS_extortion).
+###### Otherwise it would be pretty ridiculous to advocate for decentralization, multi-vendor & multi-provider solutions if not done so in real life, because one would otherwise [contribute to the increasing Enshittification of the the Internet](https://en.wikipedia.org/wiki/Enshittification).
+###
