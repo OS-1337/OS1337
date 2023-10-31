@@ -8,12 +8,13 @@ What is the intended Roadmap for OS/1337:
 ### Basic System for i486-SX and up on 1.440kB Floppy
 - Linux Kernel: ```bzImage```
   - Minimalist just to be able to run Toybox and provide Ethernet Networking
+    - Supports the following NICs: AMD, Broadcom, Intel, Marvell, Realtek, VIA,
+  - MDA / local console @ 80x25
 - Toybox: ```toybox```
 - Bootloader: ```syslinux```
 - Init Script: ```init.sh```
 - Dropbear SSH Client: ```dbclient```
-
-All Components are statically compiled against musl-cross.
+#### All Components are statically compiled against musl-cross.
 
 ---
 

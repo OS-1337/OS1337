@@ -2,6 +2,10 @@
 ### A minimalist yet useable, CLI-Oriented Toybox/Linux Distribution.
 ##
 
+See Also:
+- [Getting Started](docu/getting-started.md)
+- [Building OS/1337](docu/building.md)
+
 ---
 ##	Core Features
 ### [TUI (GUI but in CLI!)](https://en.wikipedia.org/wiki/Text-based_user_interface) - based interface
@@ -19,7 +23,7 @@
 
 ---
 ## [Roadmap](docu/roadmap.md)
-
+#### OS/1337 is still in early development and has yet to make an initial release.
 
 --- 
 ## [Components](docu/ideas/components.md)
@@ -88,6 +92,7 @@ To enable reproducible builds and spins.
   - more depending on whether or not someone wants to build for and maintain them.
 
 In theory it could also be used as a "Rescue System" or similar, but there are better tools out there like [Rescatux](https://www.supergrubdisk.org/rescatux/) and [Trinity Rescue Kit](https://trinityhome.org/).
+#### See [Project Goals](docu/project-goals.md) for OS/1337
 ##
 
 ---
@@ -179,3 +184,7 @@ Ready-to-Use Binary Versions are [only distributed via magnet: links](https://en
   - ["Protecting the Good Guys for free"](https://en.wikipedia.org/wiki/Cloudflare#Response_to_the_Russian_invasion_of_Ukraine) doesn't make said business less of a [protection racket](https://en.wikipedia.org/wiki/Protection_racket) as they knowingly and willingly also host [attackers wanting to extort others for ransom](https://en.wikipedia.org/wiki/Denial-of-service_attack#DDoS_extortion).
 ###### Otherwise it would be pretty ridiculous to advocate for decentralization, multi-vendor & multi-provider solutions if not done so in real life, because one would otherwise [contribute to the increasing Enshittification of the the Internet](https://en.wikipedia.org/wiki/Enshittification).
 ###
+
+---
+
+## [Further Reading](docu/further-sources.md)
