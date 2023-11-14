@@ -1,5 +1,5 @@
 COMPONENT	TYPE	VERSION	ARCH	SOURCE	WEBSITE	NOTES
-linux	Kernel	6.5.5	src	https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.5.5.tar.xz	https://kernel.org/	Linux Kernel
+linux	Kernel	6.6.1	src	https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.1.tar.xz	https://kernel.org/	Linux Kernel
 musl-cross	C Library	latest	i486	https://landley.net/bin/toolchains/latest/i486-linux-musl-cross.tar.xz	https://musl.libc.org/	Small yet efficient C library
 toybox	Userland	0.8.10	src	https://github.com/landley/toybox/archive/refs/tags/0.8.10.tar.gz	https://landley.net/toybox/	Efficient Useland for Embedded Linux
 dropbear-client	SSH Client	2022.83	src	https://matt.ucc.asn.au/dropbear/releases/dropbear-2022.83.tar.bz2	https://matt.ucc.asn.au/dropbear/dropbear.html	A small SSH Client

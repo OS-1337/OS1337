@@ -1,5 +1,6 @@
 ::sysinit:/etc/init.d/rc
-::askfirst:/bin/sh
+::askfirst:/bin/toybox
 ::restart:/sbin/init
 ::ctrlaltdel:/sbin/reboot
 ::shutdown:/bin/umount -a -r
+::ssh:/bin/dbclient
