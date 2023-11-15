@@ -71,3 +71,7 @@ Showcasing that a [minimal yet nice Desktop for 32bit/ix86 was still useful and 
 - [mkdosfs](https://linux.die.net/man/8/mkdosfs)
 - [dd](https://linux.die.net/man/1/dd)
 - [GCC](https://en.wikipedia.org/wiki/GNU_Compiler_Collection)
+
+---
+
+#### [Back to README](README.md)

@@ -27,3 +27,7 @@ What is the intended Roadmap for OS/1337:
     - See [Wishlist for pkgs](https://github.com/OS-1337/pkgs/blob/main/docs/WISHLIST.tsv)
 - Installer for installing onto a HDD/SSD
   - essential partitioning tools like cfdisk
+
+---
+
+#### [Back to README](README.md)

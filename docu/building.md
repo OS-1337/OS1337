@@ -87,3 +87,7 @@ Furthermore, it makes the system just work and enables users to not just SSH int
 ### Floppinux
 #### [Floppinux Manual](https://archive.org/details/floppinux-manual/)
 It has a [pretty detailed and accurate writeup](https://archive.org/download/floppinux-manual/floppinux-manual.pdf) on how to build a minimal Linux that fits in 1.440kB.
+
+---
+
+#### [Back to README](README.md)

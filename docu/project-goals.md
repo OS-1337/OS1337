@@ -35,3 +35,7 @@
 ---
 ### Long-Term Backlog
 #### Add support for [more architectures](./ideas/architectures.tsv).
+
+---
+
+#### [Back to README](README.md)

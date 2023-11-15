@@ -2,10 +2,13 @@
 ### A minimalist yet useable, CLI-Oriented Toybox/Linux Distribution.
 ##
 
-See Also:
-- [Getting Started](docu/getting-started.md)
-- [Building OS/1337](docu/building.md)
-
+### See Also:
+- #### [Getting Started](docu/getting-started.md)
+- #### [Building OS/1337](docu/building.md)
+- #### [Project Goals](docu/project-goals.md)
+- #### [Roadmap](docu/roadmap.md) for OS/1337 development
+- #### [Acknowledgements](docu/acknowledgements.md) of external helpers
+- #### [Further Sources](docu/further-sources.md) to read into
 ---
 ##	Core Features
 ### [TUI (GUI but in CLI!)](https://en.wikipedia.org/wiki/Text-based_user_interface) - based interface
