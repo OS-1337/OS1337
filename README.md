@@ -159,11 +159,16 @@ The Successor Project of Aboriginal Linux which [has been marged into toybox sin
 A similar project to Aboriginal Linux but predating it.
 ###
 
+#### [ttylinux](http://www.minimalinux.org/ttylinux/)
+A minimalist Linux distro that only needs 8MB of storage and 28MB of RAM, but uses [regular linux components](http://www.minimalinux.org/ttylinux/about.html) like glibc, bash and so forth.
+###
+
 #### [Knoppix](https://en.wikipedia.org/wiki/Knoppix)
 Which is considered [the original Debian Live-CD](https://www.knopper.net/knoppix/index-en.html) to this day.
 - Knoppix basically popularized the whole ["Live CD"](https://en.wikipedia.org/wiki/Live_CD) mode and genre with several distros either offering said non-persistence as a benefit:
   - For example [BackTrack](https://en.wikipedia.org/wiki/BackTrack) which was superseded by [Kali Linux](https://en.wikipedia.org/wiki/Kali_Linux).
   - [Rescatux](https://www.supergrubdisk.org/rescatux/), [Clonezilla](https://clonezilla.org/clonezilla-live.php), [GParted live](https://gparted.org/livecd.php)  and other spechalized distros...
+###
 
 ---
 ## "Shut Up And Let Me Download!"
@@ -175,6 +180,8 @@ Ready-to-Use Binary Versions are [only distributed via magnet: links](https://en
   - This is free software, not some pirated stuff!
     - If you think BitTorrent has no "legitimate use" then you are banned from using OS/1337.
   - Same goes for those that just download from the severely bandwith-restricted webseed and/or only leech the torrent.
+###
+
 ### And before anyone asks:
 #### YES we are aware of [ClownFlare](https://en.wikipedia.org/wiki/Cloudflare#Kiwi_Farms) existing.
   - [Liz Fong-Jones has done a pretty good 3 part explainer series why you should never use them at all](https://www.youtube.com/watch?v=Np9erdnM4l8&list=PLI84-gNHkUdvE1u_Kfz3qS9h75n-m-T3y&pp=iAQB) and in a way more concise and understandable form without ranting than I could do.
@@ -188,3 +195,7 @@ Ready-to-Use Binary Versions are [only distributed via magnet: links](https://en
 ---
 
 ## [Further Reading](docu/further-sources.md)
+
+## See Also:
+#### [Prof. Wim Vanderbauwhede](https://labs.ripe.net/author/anastasiya-pak/frugal-computing-for-a-sustainable-internet/)
+[Frugal Computing](https://arxiv.org/pdf/2303.06642v1.pdf)
