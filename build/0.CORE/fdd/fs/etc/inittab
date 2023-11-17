@@ -4,3 +4,5 @@
 ::ctrlaltdel:/sbin/reboot
 ::shutdown:/bin/umount -a -r
 ::ssh:/bin/dbclient
+::sh:/bin/toybox sh
+::bash:/bin/toybox sh
