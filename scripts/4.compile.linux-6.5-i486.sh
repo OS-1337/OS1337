@@ -1,19 +1,19 @@
 #! /usr/bin/env bash
-4.compile.linux-kernel.i686.shecho 'building the linux [i486]'
+echo 'Building linux [i486]'
 
-cd ./../build/linux
-echo 'done! Starting to compile...'
+cd ./../build/working/linux
+echo 'Done! Starting to compile...'
 LDFLAGS=--static CROSS_COMPILE=i486-linux-musl-cross/bin/i486-linux-musl- make ARCH=x86 bzImage
-echo 'done!'
+echo 'Done!'
 
 cd ./..
-mkdir ./i486
-mkdir ./i486/config
-mkdir ./i486/config/linux
-mv mv ./linux/arch/x86/boot/bzImage ./linux/
-cd ./../scripts
-echo 'completed!'
-echo 'you can find the Kernel as ./i486/bzImage'
-echo 'your linux configuration has been backed up to ./i486/config/linux'
+mkdir -pv ./i486
+mv ./linux/arch/x86/boot/bzImage ../1440k-fdd
+mv ./linux/.config ../1440k-fdd/syslinux.cfg
+cd ./../../scripts
+
+echo "Completed!"
+echo 'You can find the Kernel at ./build/1440k-fdd/bzImage'
+echo 'Your linux configuration has been backed up to ./build/1440k-fdd/syslinux.cfg'
 
 exit
