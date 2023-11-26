@@ -1,10 +1,10 @@
 #! /usr/bin/env bash
-echo 'building the toybox [i686]'
+echo 'Building toybox [i686]'
 
-cd ./../build/toybox
+cd ./../build/working/toybox
 make ARCH=x86 menuconfig
-echo 'completed!'
-echo 'ready to compile for i486!'
-cd ./../../scripts
+echo 'Completed!'
+echo 'Ready to compile for i486!'
+cd ./../../../scripts
 
 exit

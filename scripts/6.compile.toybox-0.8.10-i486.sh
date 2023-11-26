@@ -1,12 +1,12 @@
 #! /usr/bin/env bash
-echo 'building toybox [i686]'
+echo 'Building toybox [i686]'
 
-cd ./../build/toybox
-echo 'done! Starting to compile...'
+cd ./../build/working/toybox
+echo 'Done! Starting to compile...'
 LDFLAGS=--static CROSS_COMPILE=i486-linux-musl-cross/bin/i486-linux-musl- make ARCH=x86 toybox
-echo 'done!'
+echo 'Done!'
 
-cd ./../scripts
-echo 'completed!'
+cd ../../../scripts
+echo 'Completed!'
 
 exit

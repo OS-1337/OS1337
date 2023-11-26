@@ -1,13 +1,22 @@
 #! /usr/bin/env bash
-echo 'building the linux [i486]'
+echo 'Check for config file.'
+if test -f .config; then
+  echo "Copying kernel config."
+  cp -v .config ../build/working/linux/
+fi
+cd ./../build/working/linux/
+if test -f .config; then
+  echo "Kernel config found."
+else
+ echo 'No config found. Generating 6.5-i486 tinyconfig.'
+  make ARCH=x86 tinyconfig
+fi
 
-cd ./../build/linux
-echo 'Generating 6.5-i486.config'
-make ARCH=x86 tinyconfig
 echo 'Please configure the Kernel...'
 make ARCH=x86 menuconfig
-echo 'completed!'
-echo 'ready to compile for i486!'
-cd ./../../scripts
+echo 'Completed!'
+
+echo 'Ready to compile for i486!'
+cd ./../../../scripts
 
 exit
