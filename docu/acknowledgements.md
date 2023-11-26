@@ -67,6 +67,17 @@ Showcasing that a [minimal yet nice Desktop for 32bit/ix86 was still useful and 
   - Whilst [Ubuntu Core](https://ubuntu.com/core) may be a good solution for a lot of [IoT](https://ubuntu.com/download/iot) devices and projects, 
 
 ###
+#### [VxWorks](https://www.windriver.com/products/vxworks)
+- Utilizing the same approach as used for OS/1337 by having a [seperate development envoirment on different Hardware than the target system.](https://en.wikipedia.org/wiki/VxWorks#Development_environment)
+  - This is done out of convenience and to allow the use of development tools outside of those supported on OS/1337.
+    - OFC it's desireable to have OS71337 *self-hosting* tho as of now this is not regarded with as high of a priority than for toybox
+
+###
+#### [Wind River Linux](https://www.windriver.com/products/linux)
+- Which can be considered to be similar abeit as a commercial solution with [one time purchase for licensing per project](https://en.wikipedia.org/wiki/Wind_River_Systems#Wind_River_Linux)
+  - OFC in that regard it's not dissimilar from [RHEL](https://en.wikipedia.org/wiki/Red_Hat_Enterprise_Linux), [SLES & SLED](https://en.wikipedia.org/wiki/SUSE_Linux_Enterprise) being an Enterprise Linux Distribution.
+
+###
 #### Various other tools I use that just work out of the box:
 - [mkdosfs](https://linux.die.net/man/8/mkdosfs)
 - [dd](https://linux.die.net/man/1/dd)
