@@ -3,8 +3,13 @@
 What is the intended Roadmap for OS/1337:
 
 ---
+## Prereleases - v0.0.x
+### Working on the prerequesites.
+- Getting everything sorted out to work.
+  - Bootable system.
 
-## Initial Release - v0.0.1
+---
+## Initial Release - v0.1
 ### Basic System for i486-SX and up on 1.440kB Floppy
 - Linux Kernel: ```bzImage```
   - Minimalist just to be able to run Toybox and provide Ethernet Networking
@@ -17,7 +22,6 @@ What is the intended Roadmap for OS/1337:
 #### All Components are statically compiled against musl-cross.
 
 ---
-
 ## Future Releases - v0.x
 ### Quality of Life Features
 - Ramdisk for non-persistent storage
@@ -29,5 +33,4 @@ What is the intended Roadmap for OS/1337:
   - essential partitioning tools like cfdisk
 
 ---
-
 #### [Back to README](README.md)
