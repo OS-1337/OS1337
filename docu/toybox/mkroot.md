@@ -11,7 +11,10 @@ You can cross compile simple three package (toybox+libc+linux) systems configure
 
 Then you can cd root/sh4; ./qemu-sh4.sh to launch the emulator. (You'll need the appropriate qemu-system-* emulator binary installed.) Type "exit" when done and it should shut down the emulator on the way out, similar to exiting the chroot version. (Except this is more like you ssh'd to a remote machine: the emulator created its own CPU with its own memory and I/O devices, and booted a kernel in it.)
 
-The build finds the three packages needed to produce this system because 1) you're in a toybox source directory, 2) your cross compiler has a libc built into it, 3) you tell it where to find a Linux kernel source directory with LINUX= on the command line. If you don't say LINUX=, it skips that part of the build and just produces a root filesystem directory (root/$CROSS/fs or root/host/fs if no $CROSS target specified), which you can chroot into if your architecture can run those binaries. (For PID other than 1, the /init script at the top of the directory sets up and cleans up the /proc mount points, so chroot root/i686/fs /init is a reasonable "poke around and look at things" smoketest.)
+The build finds the three packages needed to produce this system because 
+1. you're in a toybox source directory, 
+2. your cross compiler has a libc built into it,
+3. you tell it where to find a Linux kernel source directory with LINUX= on the command line. If you don't say LINUX=, it skips that part of the build and just produces a root filesystem directory (root/$CROSS/fs or root/host/fs if no $CROSS target specified), which you can chroot into if your architecture can run those binaries. (For PID other than 1, the /init script at the top of the directory sets up and cleans up the /proc mount points, so chroot root/i686/fs /init is a reasonable "poke around and look at things" smoketest.)
 
 The CROSS= shortcut expects a "ccc" symlink in the toybox source directory pointing at a directory full of cross compilers. The ones I test this with are built from the musl-libc maintainer's musl-cross-make project, built by running toybox's scripts/mcm-buildall.sh in a musl-cross-make checkout directory, and then symlinking the resulting "ccc" subdirectory into toybox where CROSS= can find them:
 
