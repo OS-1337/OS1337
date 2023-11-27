@@ -4,7 +4,7 @@ cd ./../build/working/
 echo ''
 
 echo 'Unpacking Linux Kernel Sources...'
-tar -xf ../downloads/linux-6.5.tar.xz
+tar -xf ../downloads/linux-6.6.2.tar.xz
 mv ./linux-6.5 ./linux
 echo 'Done unpacking Linux!'
 

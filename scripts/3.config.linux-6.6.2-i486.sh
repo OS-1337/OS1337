@@ -8,7 +8,7 @@ cd ./../build/working/linux/
 if test -f .config; then
   echo "Kernel config found."
 else
- echo 'No config found. Generating 6.5-i486 tinyconfig.'
+ echo 'No config found. Generating 6.6.2-i486 tinyconfig.'
   make ARCH=x86 tinyconfig
 fi
 

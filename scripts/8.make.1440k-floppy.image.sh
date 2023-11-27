@@ -1,10 +1,16 @@
 #! /usr/bin/env bash
 
-# Don't run yet. The files aren't in the right locations, and we still need to create the rootfs image, and copy the toybox files, I believe.
+##	TODO: Add spechal device files in /dev - see [Floppinux Manual]( docu/floppinux/floppinux-manual.pdf ) p.5 for details.
+#	sudo mknod dev/console c 5 1
+#	sudo mknod dev/null c 1 3
+
+
+##	TODO: WIP! Don't run yet. The files aren't in the right locations, and we still need to create the rootfs image, and copy the toybox files, I believe.
 #
 # Creating the rootfs image can be based on:
 # echo 'compressing filesystem into xz-compressed cpio initramfs'
 # cd ./../../fdd/fs
+##	TODO: put  [ /fs/ subdirectory ](build/0.CORE/fdd/fs) in rootfs.cpio.xz
 # find . | cpio -H newc -o | xz -9 > ../rootfs.cpio.xz
 # ls -alh
 # echo 'done!'
