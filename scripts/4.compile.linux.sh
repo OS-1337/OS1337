@@ -1,4 +1,7 @@
 #! /usr/bin/env bash
+
+source ./config.sh
+
 echo 'Building linux [i486]'
 
 cd ./../build/working/linux

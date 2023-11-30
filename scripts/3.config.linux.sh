@@ -1,4 +1,7 @@
 #! /usr/bin/env bash
+
+source ./config.sh
+
 echo 'Check for config file.'
 if test -f .config; then
   echo "Copying kernel config."

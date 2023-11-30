@@ -1,6 +1,8 @@
 #! /usr/bin/env bash
 
-##	TODO: Add spechal device files in /dev - see [Floppinux Manual]( docu/floppinux/floppinux-manual.pdf ) p.5 for details.
+source ./config.sh
+
+##	TODO: Add special device files in /dev - see [Floppinux Manual]( docu/floppinux/floppinux-manual.pdf ) p.5 for details.
 #	sudo mknod dev/console c 5 1
 #	sudo mknod dev/null c 1 3
 

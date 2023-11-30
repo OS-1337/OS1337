@@ -1,4 +1,7 @@
 #! /usr/bin/env bash
+
+source ./config.sh
+
 echo 'building dropbear client [i486]'
 
 cd ./../build/working/dropbear
