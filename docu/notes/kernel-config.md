@@ -1,6 +1,6 @@
 # OS/1337
 ### Issue Analysis re:  non-booting issue
-## Kernel Configuration
+## Kernel Configuration Comparisons
 
 ---
 
@@ -25,9 +25,9 @@ not defined on Debian Kernel, but set on existing config.
 
 ---
 
-Based off [Floppinux Configuration Guide](docu/external/floppinux/floppinux-manual.pdf)
+### Based off [Floppinux Configuration Guide](docu/external/floppinux/floppinux-manual.pdf)
 
-Steps are:
+#### Steps are:
 ```
 make ARCH=x86 tinyconﬁg
 make ARCH=x86 menuconﬁg
