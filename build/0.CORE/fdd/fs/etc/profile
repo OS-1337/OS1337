@@ -13,3 +13,6 @@ alias unixtime='date +%s'
 ### Output Unixtime
 alias ding='echo -ne '\007''
 ### Create a Beep [will only make a system beep if output is redirected to a local or unused console]
+
+## mapping of applications
+alias ssh='/bin/dbclient'
