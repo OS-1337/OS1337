@@ -130,7 +130,7 @@ Your experience with any *DOS won't help you here...
 ##
 
 ---
-## Acknowlegements
+## [Acknowlegements](docu/acknowledgements.md)
 
 ### Name
 #### OS/1337 
@@ -138,39 +138,13 @@ It's a wordplay upon [OS/2](https://en.wikipedia.org/wiki/OS/2), [OS/360](https:
 - Naming it OS/3 or OS/420 was deemed too risky from a trademark standpoint, and one could reason it's meant to spread confusion among users of OS/2 or the OS/360 - z/OS family.
   - Exacerbated by the fact that it's neither made nor endorsed by [IBM](https://en.wikipedia.org/wiki/IBM) and doesn't support the same [z/Architecture](https://en.wikipedia.org/wiki/Z/Architecture) as the aformentioned Mainframes.
 - It's a homage to old terminal Systems as well as to the clichee of "Hackers" that must always work with amber and/or green consoles on their ThinkPads and MacBooks wearing Fawkes Masks and black Hoodies.
-##
-### Similar Projects
+###
+
+### Inspirating Project
 #### [Floppinux](https://github.com/w84death/floppinux)
 Floppinux is a minimalist Linux distro designed to run from a single 3,5", 1440 KB Floppy Disk.
 - It's based on BusyBox and a current Linux Kernel.
   - But strips basically most of the unused features out of it.
-###
-
-#### [Tom's Root Boot](https://en.wikipedia.org/wiki/Tomsrtbt) aka. tmsrtbt
-Which was a minimalist #Linux distro made by Thomas A. Oehser which was a popular "Rescue System" to check hardware configuration or salvage files with.
-- Sadly it seems to have been [abandoned 21 years ago](http://www.toms.net/rb/) and most likely won't even boot on modern hardware at all.
-###
-
-#### [Aboriginal Linux](http://landley.net/aboriginal/)
-A minimalist Busybox/Linux Distribution maintained by Rob Landley (the ex-maintainer of BusyBox and [now-maintainer of toybox](http://landley.net/toybox/)) which aimed to be the smallest, "self-hosting" aka. self-compiling Linux Distribution.
-###
-
-#### [mkroot](https://github.com/landley/mkroot)
-The Successor Project of Aboriginal Linux which [has been marged into toybox since 2020.](https://github.com/landley/toybox) 
-###
-#### [Firmware Linux](https://landley.net/code/firmware/old/)
-A similar project to Aboriginal Linux but predating it.
-###
-
-#### [ttylinux](http://www.minimalinux.org/ttylinux/)
-A minimalist Linux distro that only needs 8MB of storage and 28MB of RAM, but uses [regular linux components](http://www.minimalinux.org/ttylinux/about.html) like glibc, bash and so forth.
-###
-
-#### [Knoppix](https://en.wikipedia.org/wiki/Knoppix)
-Which is considered [the original Debian Live-CD](https://www.knopper.net/knoppix/index-en.html) to this day.
-- Knoppix basically popularized the whole ["Live CD"](https://en.wikipedia.org/wiki/Live_CD) mode and genre with several distros either offering said non-persistence as a benefit:
-  - For example [BackTrack](https://en.wikipedia.org/wiki/BackTrack) which was superseded by [Kali Linux](https://en.wikipedia.org/wiki/Kali_Linux).
-  - [Rescatux](https://www.supergrubdisk.org/rescatux/), [Clonezilla](https://clonezilla.org/clonezilla-live.php), [GParted live](https://gparted.org/livecd.php)  and other spechalized distros...
 ###
 
 ---
