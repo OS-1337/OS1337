@@ -43,6 +43,9 @@ These are mostly projects that inspired me to give it a go.
 ##### (spelled: *"Tom's Root Boot"*)
 A [sadly unmaintained](http://www.toms.net/rb/) Linux Distribution designed to fit on a 3,5" 1.440 kB FDD.
 
+####
+### [floppyfw](https://en.wikipedia.org/wiki/Floppyfw)
+A minimalist Busybox/Linux distro that could turn any [i386-SX](https://en.wikipedia.org/wiki/I386#80386SX) with 12MB RAM, 2 NICs and a 1440kB FDD into a functional firewall. 
 
 ####
 ### [Aboriginal Linux](http://landley.net/aboriginal/)

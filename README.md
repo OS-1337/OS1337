@@ -2,14 +2,21 @@
 ### A minimalist yet useable, CLI-Oriented Toybox/Linux Distribution.
 ##
 
-### See Also:
+---
+
+### INDEX
 - #### [Getting Started](docu/getting-started.md)
 - #### [Building OS/1337](docu/building.md)
 - #### [Project Goals](docu/project-goals.md)
 - #### [Roadmap](docu/roadmap.md) for OS/1337 development
 - #### [Acknowledgements](docu/acknowledgements.md) of external helpers
 - #### [Further Sources](docu/further-sources.md) to read into
+- #### [License](LICENSE.md)
+  - TLDR: It's [0BSD](https://en.wikipedia.org/wiki/BSD_licenses#0-clause_license_(%22BSD_Zero_Clause_License%22)) as created by Rob Landley [and used for toybox](http://www.landley.net/toybox/license.html).
+    - ###### Please note that [this does not apply to all parts of OS/1337 - notably the Linux Kernel!](LICENSE.md#important-note)
+
 ---
+
 ##	Core Features
 ### [TUI (GUI but in CLI!)](https://en.wikipedia.org/wiki/Text-based_user_interface) - based interface
 #### "Make Terminals Great Again!"
