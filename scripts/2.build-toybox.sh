@@ -2,14 +2,17 @@
 
 source ./config.sh
 
-echo 'Building toybox [i686]'
-
 cd ./../build/working/toybox
-echo 'Done! Starting to compile...'
+
+echo 'Configuring toybox [i686]'
+
+make ARCH=x86 menuconfig
+echo 'Completed. Ready to compile for i486.'
+
+echo 'Building toybox [i686].'
 LDFLAGS=--static CROSS_COMPILE=i486-linux-musl-cross/bin/i486-linux-musl- make ARCH=x86 toybox
-echo 'Done!'
+echo 'Done.'
 
 cd ../../../scripts
-echo 'Completed!'
 
 exit
