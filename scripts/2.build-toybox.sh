@@ -17,7 +17,6 @@ if test -f .config; then
   echo "Toybox config found."
 else
  echo 'No config found.'
-  make ARCH=x86 menuconfig
 fi
 
 make ARCH=x86 menuconfig
