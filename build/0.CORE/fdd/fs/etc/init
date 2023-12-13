@@ -1,4 +1,4 @@
-#! /bin/toybox
+#! /bin/toybox sh
 mount -t proc none /proc
 mount -t sysfs none /sys
 clear

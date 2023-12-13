@@ -1,5 +1,5 @@
 ::sysinit:/etc/init.d/rc
-::askfirst:/bin/toybox
+::askfirst:/bin/toybox sh
 ::restart:/sbin/init
 ::ctrlaltdel:/sbin/reboot
 ::shutdown:/bin/umount -a -r

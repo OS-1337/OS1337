@@ -5,11 +5,21 @@ source ./config.sh
 echo 'Setting up the build environment:'
 
 echo 'Creating folders.'
-mkdir -pv ../build/{1440k-fdd/rootfs/{dev,etc/init.d,proc,sys,tmp},downloads,working}
+mkdir -pv ../build/{1440k-fdd/rootfs/{dev,etc/init.d,proc,sys,tmp,bin},downloads,working}
+
+echo 'Copying files.'
+cp -v ../build/0.CORE/fdd/fs/etc/{init,inittab,profile} ../build/1440k-fdd/rootfs/etc/
+cp -v ../build/0.CORE/fdd/fs/welcome.txt ../build/1440k-fdd/rootfs/
+cp -v ../build/0.CORE/fdd/syslinux.cfg ../build/1440k-fdd/
+
+echo 'Creating special files needed for system.'
+cd ./../build/1440k-fdd/rootfs
+sudo mknod dev/console c 5 1
+sudo mknod dev/null c 1 3
 
 echo -e 'Downloading necessary packages.\n'
 
-cd ../build/downloads
+cd ../../downloads
 
 download_files $linux_url $linux_filename $linux_desc
 download_files $toybox_url $toybox_filename $toybox_desc
@@ -39,9 +49,9 @@ cp -r ./i486-linux-musl-cross ./toybox/
 cp -r ./i486-linux-musl-cross ./linux/
 echo -e 'Added.\n'
 
-echo 'Unpacking musl.'
-tar -xf ../downloads/$musl_filename
-echo -e 'Done.\n'
+#echo 'Unpacking musl.'
+#tar -xf ../downloads/$musl_filename
+#echo -e 'Done.\n'
 
 echo 'Unpacking dropbear.'
 tar -xf ../downloads/$dropbear_filename

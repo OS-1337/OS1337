@@ -35,7 +35,7 @@ syslinux --install os1337.1440kB.fdd.img
 echo 'Done.'
 
 echo 'mounting image and installing the OS/1337 into it...'
-sudo mkdir $mount_dir
+sudo mkdir -p $mount_dir
 sudo mount -o loop os1337.1440kB.fdd.img $mount_dir
 sudo cp bzImage $mount_dir
 sudo cp rootfs.cpio.xz $mount_dir
