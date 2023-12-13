@@ -1,7 +1,7 @@
 #! /usr/bin/env bash
 # Helper variables and functions.
 
-linux_version="6.6.4"
+linux_version="6.6.6"
 toybox_version="0.8.10"
 musl_version="1.2.4"
 dropbear_version="2022.83"

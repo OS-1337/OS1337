@@ -5,11 +5,13 @@ source ./config.sh
 echo 'Check for config file.'
 if test -f linux.config; then
   echo "Copying kernel config."
-  cp -v linux.config ../build/working/linux/.config
+  cp -v linux.config ../build/working/linux/linux.config
 fi
-cd ./../build/working/linux/
-if test -f .config; then
+
+cd ../build/working/linux/
+if test -f linux.config; then
   echo "Kernel config found."
+  mv linux.config .config
 else
  echo 'No config found. Generating tinyconfig.'
   make ARCH=x86 tinyconfig
