@@ -1,6 +1,7 @@
-::sysinit:/etc/init.d/rc
-::askfirst:/bin/toybox sh
-::restart:/sbin/init
-::ctrlaltdel:/sbin/reboot
-::shutdown:/bin/umount -a -r
+::sysinit:/etc/init
+::askfirst:/bin/toybox
+::restart:/bin/toybox reboot
+::ctrlaltdel:/bin/toybox reboot
+::shutdown:/bin/toybox umount -a -r
 ::ssh:/bin/dbclient
+::profile:/etc/profile
