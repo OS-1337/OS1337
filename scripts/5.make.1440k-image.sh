@@ -24,25 +24,24 @@ cd ./../build/1440k-fdd/
 
 echo 'writing blank image file...'
 dd if=/dev/zero of=os1337.1440kB.fdd.img bs=1k count=1440
-echo 'done!'
+echo 'Done.'
 
 echo 'formatting image with FAT12...'
 mkdosfs os1337.1440kB.fdd.img
-echo 'done!'
+echo 'Done.'
 
 echo 'installing syslinux bootloader into the image...'
 syslinux --install os1337.1440kB.fdd.img
-echo 'done!'
+echo 'Done.'
 
 echo 'mounting image and installing the OS/1337 into it...'
-sudo mkdir /mnt/os1337-fdd
-sudo mount -o loop os1337.1440kB.fdd.img /mnt/os1337-fdd
-sudo cp bzImage /mnt/os1337-fdd
-sudo cp rootfs.cpio.xz /mnt/os1337-fdd
-sudo cp syslinux.cfg /mnt/os1337-fdd
-sudo umount /mnt/os1337-fdd
-echo 'done!'
-
+sudo mkdir -p $mount_dir
+sudo mount -o loop os1337.1440kB.fdd.img $mount_dir
+sudo cp bzImage $mount_dir
+sudo cp rootfs.cpio.xz $mount_dir
+sudo cp syslinux.cfg $mount_dir
+sudo umount $mount_dir
+echo 'Done.'
 
 cd ./../../scripts/
 

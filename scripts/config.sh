@@ -1,7 +1,7 @@
 #! /usr/bin/env bash
 # Helper variables and functions.
 
-linux_version="6.6.2"
+linux_version="6.6.6"
 toybox_version="0.8.10"
 musl_version="1.2.4"
 dropbear_version="2022.83"
@@ -24,6 +24,8 @@ musl_cross_desc="musl-cross"
 musl_desc="musl"
 dropbear_desc="dropbear"
 
+mount_dir=/mnt/os1337-fdd
+
 function download_files(){
   local url=$1
   local filename=$2
@@ -32,9 +34,9 @@ function download_files(){
   if test -f $filename; then
     echo "File ${filename} already found."
   else
-    echo "Downloading ${desc}..."
+    echo "Downloading ${desc}."
     wget $url
-    echo "Done downloading ${desc}!"
+    echo "Done downloading ${desc}."
   fi
   echo ''
 }
