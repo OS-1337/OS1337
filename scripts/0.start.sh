@@ -9,7 +9,7 @@ mkdir -pv ../build/{1440k-fdd/rootfs/{dev,etc/init.d,proc,sys,tmp,bin},downloads
 
 echo 'Copying files.'
 cp -v ../build/0.CORE/fdd/fs/etc/{init,inittab,profile} ../build/1440k-fdd/rootfs/etc/
-cp -v ../build/0.CORE/fdd/fs/welcome.txt ../build/1440k-fdd/rootfs/
+cp -v ./$profile_dir/welcome.txt ../build/1440k-fdd/rootfs/
 cp -v ../build/0.CORE/fdd/syslinux.cfg ../build/1440k-fdd/
 
 echo 'Creating special files needed for system.'

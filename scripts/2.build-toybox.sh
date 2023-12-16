@@ -7,7 +7,7 @@ echo 'Configuring toybox [i686]'
 
 echo 'Check for config file.'
 if test -f ./$profile_dir/toybox.config; then
-  echo "Copying kernel config."
+  echo "Copying toybox config."
   cp -v ./$profile_dir/toybox.config ../build/working/toybox/.config
 fi
 
