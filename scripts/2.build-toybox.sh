@@ -26,8 +26,8 @@ echo 'Building toybox [i686].'
 LDFLAGS=--static CROSS_COMPILE=i486-linux-musl-cross/bin/i486-linux-musl- make ARCH=x86 toybox
 echo 'Done.'
 
-cp -v ./toybox ../../1440k-fdd/rootfs/bin/
-cd ../../1440k-fdd/rootfs/bin/
+cp -v ./toybox ../../$base_dir/rootfs/bin/
+cd ../../$base_dir/rootfs/bin/
 
 # Create symlinks for all toybox commands
 for i in $(./toybox); do ln -vs toybox $i; done

@@ -4,6 +4,9 @@
 # Directories to use
 mount_dir=/mnt/os1337-fdd
 profile_dir=profile/core
+#profile_dir=profile/chonky
+
+source ./$profile_dir/config.sh
 
 # Download Information
 # Versions

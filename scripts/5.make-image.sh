@@ -6,25 +6,25 @@ source ./config.sh
 #	sudo mknod dev/console c 5 1
 #	sudo mknod dev/null c 1 3
 
-echo 'Creating the 1440kB Floppy Image...'
+echo 'Creating the disk image...'
 
-cd ./../build/1440k-fdd/
+cd ./../build/$base_dir/
 
 echo 'writing blank image file...'
-dd if=/dev/zero of=os1337.1440kB.fdd.img bs=1k count=1440
+dd if=/dev/zero of=$image_name bs=1k count=$image_size
 echo 'Done.'
 
 echo 'formatting image with FAT12...'
-mkdosfs os1337.1440kB.fdd.img
+mkdosfs $image_name
 echo 'Done.'
 
 echo 'installing syslinux bootloader into the image...'
-syslinux --install os1337.1440kB.fdd.img
+syslinux --install $image_name
 echo 'Done.'
 
 echo 'mounting image and installing the OS/1337 into it...'
 sudo mkdir -p $mount_dir
-sudo mount -o loop os1337.1440kB.fdd.img $mount_dir
+sudo mount -o loop $image_name $mount_dir
 sudo cp bzImage $mount_dir
 sudo cp rootfs.cpio.xz $mount_dir
 sudo cp syslinux.cfg $mount_dir
