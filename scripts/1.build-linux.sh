@@ -3,9 +3,9 @@
 source ./config.sh
 
 echo 'Check for config file.'
-if test -f linux.config; then
+if test -f ./$profile_dir/linux.config; then
   echo "Copying kernel config."
-  cp -v linux.config ../build/working/linux/linux.config
+  cp -v ./$profile_dir/linux.config ../build/working/linux/linux.config
 fi
 
 cd ../build/working/linux/

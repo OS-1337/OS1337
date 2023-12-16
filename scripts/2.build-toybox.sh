@@ -6,9 +6,9 @@ source ./config.sh
 echo 'Configuring toybox [i686]'
 
 echo 'Check for config file.'
-if test -f toybox.config; then
+if test -f ./$profile_dir/toybox.config; then
   echo "Copying kernel config."
-  cp -v toybox.config ../build/working/toybox/.config
+  cp -v ./$profile_dir/toybox.config ../build/working/toybox/.config
 fi
 
 
@@ -30,7 +30,7 @@ cp -v ./toybox ../../1440k-fdd/rootfs/bin/
 cd ../../1440k-fdd/rootfs/bin/
 
 # Create symlinks for all toybox commands
-for i in $(./toybox); do ln -s toybox $i; done
+for i in $(./toybox); do ln -vs toybox $i; done
 cd ../../../../scripts/
 
 exit
