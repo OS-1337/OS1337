@@ -24,7 +24,6 @@ cd ../../downloads
 download_files $linux_url $linux_filename $linux_desc
 download_files $toybox_url $toybox_filename $toybox_desc
 download_files $musl_cross_url $musl_cross_filename $musl_cross_desc
-#download_files $musl_url $musl_filename $musl_desc
 download_files $dropbear_url $dropbear_filename $dropbear_desc
 
 echo -e 'Unpacking sources.\n'
@@ -48,10 +47,6 @@ echo 'Adding musl-cross into /toybox & linux.'
 cp -r ./i486-linux-musl-cross ./toybox/
 cp -r ./i486-linux-musl-cross ./linux/
 echo -e 'Added.\n'
-
-#echo 'Unpacking musl.'
-#tar -xf ../downloads/$musl_filename
-#echo -e 'Done.\n'
 
 echo 'Unpacking dropbear.'
 tar -xf ../downloads/$dropbear_filename

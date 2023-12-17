@@ -17,7 +17,7 @@ make clean
 LDFLAGS=-W1,--gc-sections,--static CROSS_COMPILE=../i486-linux-musl-cross/bin/i486-linux-musl- CFLAGS="-Os" make
 strip kilo
 
-cp -v ./kilo ../../1440k-fdd/rootfs/bin/
+cp -v ./kilo ../../$base_dir/rootfs/bin/
 
 cd ./../../../../scripts
 
