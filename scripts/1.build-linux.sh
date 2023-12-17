@@ -3,9 +3,9 @@
 source ./config.sh
 
 echo 'Check for config file.'
-if test -f linux.config; then
+if test -f ./$profile_dir/linux.config; then
   echo "Copying kernel config."
-  cp -v linux.config ../build/working/linux/linux.config
+  cp -v ./$profile_dir/linux.config ../build/working/linux/linux.config
 fi
 
 cd ../build/working/linux/
@@ -28,12 +28,12 @@ echo 'Done.'
 
 cd ./..
 mkdir -pv ./i486
-mv ./linux/arch/x86/boot/bzImage ../1440k-fdd
-mv ./linux/.config ../1440k-fdd/linux.config
+mv ./linux/arch/x86/boot/bzImage ../$base_dir
+mv ./linux/.config ../$base_dir/linux.config
 cd ./../../scripts
 
 echo "Completed."
-echo 'You can find the Kernel at ./build/1440k-fdd/bzImage'
-echo 'Your linux configuration has been backed up to ./build/1440k-fdd/linux.config'
+echo "You can find the Kernel at ./build/$base_dir/bzImage"
+echo "Your linux configuration has been backed up to ./build/$base_dir/linux.config"
 
 exit
