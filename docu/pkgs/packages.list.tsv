@@ -4,4 +4,5 @@ toybox	CORE	0.8.10	INCLUDED	Embedded Userland, compiled against musl-cross
 dbclient	CORE	2022.83	INCLUDED	Dropbear SSH as standalone SSH client, compiled against musl-cross
 musl-cross	LIB	LATEST	USED	Cross-Compiling Version of musl as C library to run applications with.
 musl	LIB	LATEST	USED	C-Library used to compile against, Slimmer & more Stable alternative to Glibc.
-syslinux	CORE	-	TO BE INTEGRATED	Bootloader for the CORE/Floppy Version.
+syslinux	CORE	6.04	TO BE INTEGRATED	Bootloader for the CORE/Floppy Version.
+kilo	CORE	???	TO BE INTEGRATED	Minimalst and ultra-lightweight editor
