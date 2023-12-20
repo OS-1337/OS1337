@@ -2,9 +2,20 @@
 
 source ./config.sh
 
-echo 'building dropbear client [i486]'
+cd ../build/downloads
+download_files $dropbear_url $dropbear_filename $dropbear_desc
+cd ../working
 
-cd ./../build/working/dropbear
+echo 'Unpacking dropbear./n'
+tar -xf ../downloads/$dropbear_filename
+mv ./dropbear-$dropbear_version dropbear
+
+cd dropbear
+
+echo 'Building dropbear client [i486]'
+
+cd ./dropbear
+
 make clean
 ./configure --disable-zlib --disable-x11 --disable-agent-forwarding
 LDFLAGS=-W1,--gc-sections,--static CROSS_COMPILE=i486-linux-musl-cross/bin/i486-linux-musl- CFLAGS="-Os -ffunction-sections -fdata-sections" make ARCH=x86 dbclient

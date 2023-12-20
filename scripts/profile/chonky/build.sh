@@ -4,6 +4,9 @@ echo "Current directory is $PWD"
 ./0.start.sh
 #read -p "Press any key to continue... " -n1 -s
 
+./pkgs/musl-cross.sh
+#read -p "Press any key to continue... " -n1 -s
+
 ./1.build-linux.sh
 #read -p "Press any key to continue... " -n1 -s
 ./2.build-toybox.sh

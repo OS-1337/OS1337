@@ -2,6 +2,16 @@
 
 source ./config.sh
 
+cd ../build/downloads
+download_files $linux_url $linux_filename $linux_desc
+
+cd ../working
+echo 'Unpacking Linux Kernel.'
+tar -xf ../downloads/$linux_filename
+mv ./linux-$linux_version ./linux
+
+cd ../../scripts
+
 echo 'Check for config file.'
 if test -f ./$profile_dir/linux.config; then
   echo "Copying kernel config."
@@ -9,6 +19,10 @@ if test -f ./$profile_dir/linux.config; then
 fi
 
 cd ../build/working/linux/
+
+echo 'Adding musl-cross into linux.'
+cp -r ../i486-linux-musl-cross .
+
 if test -f linux.config; then
   echo "Kernel config found."
   mv linux.config .config
