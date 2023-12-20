@@ -1,5 +1,5 @@
-# OS/1337
-## 'Chonky' Edition
+# "Chonky" Edition
+## OS/1337
 
 ---
 

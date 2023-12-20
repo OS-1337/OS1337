@@ -1,5 +1,5 @@
-# OS/1337
-## Core Edition
+# "Core" Edition
+## OS/1337
 
 ---
 
