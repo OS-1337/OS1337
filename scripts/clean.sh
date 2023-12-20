@@ -10,7 +10,7 @@ while [ $# -gt 0 ] ; do
 done
 
 echo 'Deleting main and working directories created in build.'
-sudo rm ../build/{$base_dir/,downloads/,working/} -rf
+sudo rm ../build/{$base_dir/,working/} -rf
 
 if $full ; then
 	echo 'Deleting downloads.'
