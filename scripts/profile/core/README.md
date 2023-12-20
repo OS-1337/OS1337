@@ -16,14 +16,13 @@ The Core Edition should work as a minimalist Floppy that one can use to install 
   - Networking Support
     - TCP/IPv4
       - Ethernet
-        - ``3Com`` ISA & PCI Cards
-        - ``AMD`` ISA & PCI Cards
-        - ``Intel`` ISA & PCI Cards
-        - ``VIA`` ISA & PCI Cards
+        - ``3Com`` ISA Cards
+        - ``AMD`` ISA Cards
+        - ``Intel`` ISA Cards
+        - ``VIA`` ISA Cards
   - Basic Terminal / Console Support
     - ANSI/ISO ``AT`` QWERTY Keyboard
     - Local 80x25 Terminal
-    - Serial Console
   - Necessary Drivers for ISA & PCI support
 - ``toybox` Userland 0.8.10
   - Basic Tools
