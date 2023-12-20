@@ -19,6 +19,6 @@ strip kilo
 
 cp -v ./kilo ../../$base_dir/rootfs/bin/
 
-cd ./../../../../scripts
+cd ../../../scripts/
 
 exit
