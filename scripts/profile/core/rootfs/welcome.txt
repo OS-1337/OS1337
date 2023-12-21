@@ -1,0 +1,16 @@
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║ Welcome to OS/1337!                                                          ║
+║ Version: 0.0.1 Release 1                                                     ║
+╠══════════════════════════════════════════════════════════════════════════════╣
+║ This is the "CORE" Edition designed to fit a single 1440kB FDD.              ║
+║ The following tools are integrated in this release:                          ║
+║ - Linux 6.6.6-i486 [with basic network drivers for legacy systems!]          ║
+║ - toybox 0.8.10-i486 [tho not all functions are included!]                   ║
+║ - dbclient 2022.83-i486 [Dropbear SSH Client as single static executeable]   ║
+╟──────────────────────────────────────────────────────────────────────────────╢
+║ Due to size constraints, manpages / -help texts had to be omnitted!          ║
+║ You'll find those in our repo linked on: https://os1337.com                  ║
+║ For toybox commands, see: https://landley.net/toybox/help.html               ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
