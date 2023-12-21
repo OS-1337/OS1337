@@ -17,14 +17,6 @@ cd ./../build/$base_dir/rootfs
 sudo mknod dev/console c 5 1
 sudo mknod dev/null c 1 3
 
-# cd ../../downloads
-# download_files $musl_cross_url $musl_cross_filename $musl_cross_desc
-
-# cd ../working
-# echo 'Unpacking musl-cross.'
-# tar -xf ../downloads/$musl_cross_filename
-
 cd ../../../scripts
-echo -e 'Done unpacking.\n'
 
 exit

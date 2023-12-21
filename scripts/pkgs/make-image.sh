@@ -2,13 +2,9 @@
 
 source ./config.sh
 
-##	TODO: Add special device files in /dev - see [Floppinux Manual]( docu/floppinux/floppinux-manual.pdf ) p.5 for details.
-#	sudo mknod dev/console c 5 1
-#	sudo mknod dev/null c 1 3
-
 echo 'Creating the disk image...'
 
-cd ./../build/$base_dir/
+cd ../build/$base_dir/
 
 echo 'writing blank image file...'
 dd if=/dev/zero of=$image_name bs=1k count=$image_size
@@ -31,6 +27,6 @@ sudo cp syslinux.cfg $mount_dir
 sudo umount $mount_dir
 echo 'Done.'
 
-cd ./../../scripts/
+cd ../../scripts/
 
 exit

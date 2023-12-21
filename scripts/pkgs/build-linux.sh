@@ -40,11 +40,11 @@ echo 'Building linux [i486]'
 LDFLAGS=--static CROSS_COMPILE=i486-linux-musl-cross/bin/i486-linux-musl- make ARCH=x86 bzImage
 echo 'Done.'
 
-cd ./..
+cd ..
 mkdir -pv ./i486
 mv ./linux/arch/x86/boot/bzImage ../$base_dir
 mv ./linux/.config ../$base_dir/linux.config
-cd ./../../scripts
+cd ../../scripts
 
 echo "Completed."
 echo "You can find the Kernel at ./build/$base_dir/bzImage"

@@ -14,14 +14,12 @@ cd dropbear
 
 echo 'Building dropbear client [i486]'
 
-cd ./dropbear
-
 make clean
 ./configure --disable-zlib --disable-x11 --disable-agent-forwarding
 LDFLAGS=-W1,--gc-sections,--static CROSS_COMPILE=i486-linux-musl-cross/bin/i486-linux-musl- CFLAGS="-Os -ffunction-sections -fdata-sections" make ARCH=x86 dbclient
 
 mv ./dbclient ../../$base_dir/rootfs/bin/
 
-cd ./../../../scripts
+cd ../../../scripts
 
 exit

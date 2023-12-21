@@ -2,7 +2,7 @@
 
 source ./config.sh
 
-cd ./../build/$base_dir/rootfs
+cd ../build/$base_dir/rootfs
 
 echo 'Creating initramfs.'
 

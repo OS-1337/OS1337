@@ -20,7 +20,7 @@ if test -f ./$profile_dir/toybox.config; then
   cp -v ./$profile_dir/toybox.config ../build/working/toybox/.config
 fi
 
-cd ./../build/working/toybox/
+cd ../build/working/toybox/
 
 echo 'Adding musl-cross into /toybox.'
 cp -r ../i486-linux-musl-cross .
