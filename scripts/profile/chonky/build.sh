@@ -1,7 +1,7 @@
 #! /usr/bin/env bash
 
 echo "Current directory is $PWD"
-./pkgs/make-minimal-filesystem.sh
+./pkgs/make-fhs-filesystem.sh
 #read -p "Press any key to continue... " -n1 -s
 
 ./pkgs/musl-cross.sh
