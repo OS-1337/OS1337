@@ -1,1 +1,0 @@
-../../../build/0.CORE/fdd/fs/welcome.txt

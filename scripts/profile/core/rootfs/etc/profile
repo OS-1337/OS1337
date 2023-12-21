@@ -1,0 +1,15 @@
+#	Bash Aliases
+##  Based off: https://github.com/kkarhan/misc-scripts/blob/master/bash/.bash_aliases
+
+##	Useful commands
+alias flushcache='sudo sh -c "sync; echo 3 > /proc/sys/vm/drop_caches"'
+###	Flush the RAM forcefully
+###		See:	https://www.cyberithub.com/drop-flush-clear-cache-memory-ram-in-linux/
+
+##	faster to type, DOS-alike commands
+alias cls='clear'
+alias dir='ls -ahl'
+alias unixtime='date +%s'
+### Output Unixtime
+alias ding='echo -ne '\007''
+### Create a Beep [will only make a system beep if output is redirected to a local or unused console]

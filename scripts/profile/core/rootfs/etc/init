@@ -1,0 +1,6 @@
+#!/bin/toybox bash
+/bin/toybox init
+/bin/toybox uname
+/bin/toybox uname -r
+/bin/toybox cat welcome.txt
+/bin/toybox bash
