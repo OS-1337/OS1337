@@ -35,7 +35,7 @@ make ARCH=x86 menuconfig
 echo 'Completed. Ready to compile for i486.'
 
 echo 'Building toybox [i686].'
-LDFLAGS=--static CROSS_COMPILE=i486-linux-musl-cross/bin/i486-linux-musl- make ARCH=x86 toybox
+LDFLAGS=--static CROSS_COMPILE=$cross_dir CFLAGS="-Os" make ARCH=x86 -j $(( $(nproc) + 1 )) toybox
 echo 'Done.'
 
 cp -v ./toybox ../../$base_dir/rootfs/bin/

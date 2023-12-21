@@ -14,7 +14,7 @@ fi
 cd kilo
 
 make clean
-LDFLAGS=-W1,--gc-sections,--static CROSS_COMPILE=../i486-linux-musl-cross/bin/i486-linux-musl- CFLAGS="-Os" make
+LDFLAGS=-W1,--gc-sections,--static CROSS_COMPILE=../$cross_dir CFLAGS="-Os" ARCH=x86 make -j $(( $(nproc) + 1 )) 
 strip kilo
 
 cp -v ./kilo ../../$base_dir/rootfs/bin/

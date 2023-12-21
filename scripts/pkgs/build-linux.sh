@@ -37,7 +37,7 @@ echo 'Configured.'
 
 echo 'Building linux [i486]'
 
-LDFLAGS=--static CROSS_COMPILE=i486-linux-musl-cross/bin/i486-linux-musl- make ARCH=x86 bzImage
+LDFLAGS=--static CROSS_COMPILE=$cross_dir CFLAGS="-Os" make ARCH=x86 -j $(( $(nproc) + 1 )) bzImage
 echo 'Done.'
 
 cd ..

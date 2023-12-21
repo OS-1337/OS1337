@@ -1,6 +1,9 @@
 #! /usr/bin/env bash
 # Helper variables and functions.
 
+# Cross compilation flag.
+cross_dir=i486-linux-musl-cross/bin/i486-linux-musl-
+
 # Directories to use
 mount_dir=/mnt/os1337-fdd
 profile_dir=profile/core
