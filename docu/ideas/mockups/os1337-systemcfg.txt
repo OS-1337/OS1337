@@ -1,25 +1,25 @@
-+-> OS/1337 System Configuration <--------------------------------------------+
-| [Update OS/1337]   [Update enabled - all packages updated. Checked: 1h ago] |
-| [System & Hardware Setup]                   [last action: Modprobe drivers] |
-| [User Accounts and Customizations ]                 [Last action: See logs] |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-+[NAV][ -> OS/1337 System Configuration <- ]                  [ !0 ][BAT:100%]+
+╔══> OS/1337 System Configuration <═══════════════════════════════════════════╗
+║                                                                             ║
+║ [Update OS/1337]   [Update enabled - all packages updated. Checked: 1h ago] ║
+║ [User Accounts and Customizations ]                 [Last action: See logs] ║
+║                                                                             ║
+║                                                                             ║
+║                                                                             ║
+║                                                                             ║
+║                                                                             ║
+║                                                                             ║
+║                                                                             ║
+║                                                                             ║
+║                                                                             ║
+║                                                                             ║
+║                                                                             ║
+║                                                                             ║
+║                                                                             ║
+║                                                                             ║
+║                                                                             ║
+║                                                                             ║
+║                                                                             ║
+║                                                                             ║
+║                                                                             ║
+║                                                                             ║
+╚[NAV][ ═> OS/1337 System Configuration <═ ]                  [ !0 ][BAT:100%]╝

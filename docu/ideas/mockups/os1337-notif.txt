@@ -1,25 +1,25 @@
-+-> Notification Center <-----------------------------------------------------+
-| There are no unread notifications...                                        |
-| [Read previous Notifications]                                               |
-|                                                                             |
-| No remote Notifications are setup...                                        |
-| [Setup a remote Notification using ntfy.sh]                                 |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-+[NAV][ -> Notification Center <- ]                           [ !0 ][BAT:100%]+
+╔══> Notification Center <════════════════════════════════════════════════════╗
+║  There are no unread notifications...                                       ║
+║  [Read previous Notifications]                                              ║
+╟─────────────────────────────────────────────────────────────────────────────╢
+║  No remote Notifications are setup...                                       ║
+║  [Setup a remote Notification using ntfy.sh]                                ║
+║                                                                             ║
+║                                                                             ║
+║                                                                             ║
+║                                                                             ║
+║                                                                             ║
+║                                                                             ║
+║                                                                             ║
+║                                                                             ║
+║                                                                             ║
+║                                                                             ║
+║                                                                             ║
+║                                                                             ║
+║                                                                             ║
+║                                                                             ║
+║                                                                             ║
+║                                                                             ║
+║                                                                             ║
+║                                                                             ║
+╚[NAV][ ═> Notification Center <═ ]                           [ !0 ][BAT:100%]╝

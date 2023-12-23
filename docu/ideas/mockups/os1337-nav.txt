@@ -1,25 +1,25 @@
-+-> Welcome to OS/1337 <------------------------------------------------------+
-| Welcome to OS/1337                                                          |
-| This is the Navigation demo.                                                |
-|                                                                             |
-| Per default, OS/1337 uses an 80x25 console Window, reserving line 25 for    |
-| a Status- & Taskbar aka. Navbar, which can be called up by typing in nav.   |
-|                                                                             |
-| In this regard, it acts like the Windows Taskbar, but with good keyboard    |
-| support out of the box.                                                     |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-|                                                                             |
-+[NAV][ -> Welcome to OS/1337 <- ]                            [ !0 ][BAT:100%]+
+╔══> Demo Window <════════════════════════════════════════════════════════════╗
+║ Welcome to OS/1337                                                          ║
+║ This is the Navigation demo.                                                ║
+╟─────────────────────────────────────────────────────────────────────────────╢
+║ Per default, OS/1337 uses an 80x25 console Window, reserving line 25 for    ║
+║ a Status- & Taskbar aka. Navbar, which can be called up by typing in nav.   ║
+║                                                                             ║
+║ In this regard, it acts like the Windows Taskbar, but with good keyboard    ║
+║ support out of the box.                                                     ║
+║                                                                             ║
+║                                                                             ║
+║                                                                             ║
+║                                                                             ║
+║                                                                             ║
+║                                                                             ║
+║                                                                             ║
+║                                                                             ║
+║                                                                             ║
+║                                                                             ║
+║                                                                             ║
+║                                                                             ║
+║                                                                             ║
+║                                                                             ║
+║                                                                             ║
+╚[NAV][ ═> Welcome to OS/1337 <═ ]                            [ !0 ][BAT:100%]╝

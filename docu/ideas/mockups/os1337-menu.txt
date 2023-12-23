@@ -1,25 +1,25 @@
-+ -> Startmenu <--------------------------------------------------------------+
-| [ Welcome to OS/1337 ]                          [ Last Opened Application ] |
-| [ Notification Center ]                          [ 0 unread Notifications ] |
-| [ File Manager]                                   [ Recently Opened Files ] |
-| [ WebBrowser ]                                                [ Bookmarks ] |
-| [ eMail ]                                               [ 0 unread eMails ] |
-| [ IRC ]                                                    [ disconnected ] |
-| [ XMPP ]                                               [ 1 contact online ] |
-| [ Zulip ]                                               [ no new messages ] |
-| [ btop]                                           [ most used application ] |
-| [ All Programs... ]                               [ show all indexed apps ] |
-| --------------------------------------------------------------------------- |
-| [ About this System ]                                                       |
-| user@os1337-demo                                                            |
-| OS: OS/1337 v22.04 LTS - amd64                                              |
-| Host: SNUNMU T6 Pro Compute Stick PC                                        |
-| Kernel: linux-6.1.0-2-generic                                               |
-| Uptime: 4 hours, 20 mins                                                    |
-| Packages: 512 (dpkg)                                                        |
-| Shell: fish 3.5.1, bash 5.0.17                                              |
-| Resolution: 80x25                                                           |
-| CPU: Intel Atom  x7-Z8750 (4) @ 2.560GHz                                    |
-| GPU: Intel Cherry Trail Graphics Controller                                 |
-| Memory: 256MiB / 8192MiB                                                    |
-+[NAV][ -> Start <- ]                             [SCREEN 0/0][ !0 ][BAT:100%]+
+╔══> Startmenu <══════════════════════════════════════════════════════════════╗
+║ [ Welcome to OS/1337 ]                          [ Last Opened Application ] ║
+║ [ Notification Center ]                          [ 0 unread Notifications ] ║
+║ [ File Manager]                                   [ Recently Opened Files ] ║
+║ [ WebBrowser ]                                                [ Bookmarks ] ║
+║ [ eMail ]                                               [ 0 unread eMails ] ║
+║ [ IRC ]                                                    [ disconnected ] ║
+║ [ XMPP ]                                               [ 1 contact online ] ║
+║ [ Zulip ]                                               [ no new messages ] ║
+║ [ btop]                                           [ most used application ] ║
+║ [ All Programs... ]                               [ show all indexed apps ] ║
+╟─────────────────────────────────────────────────────────────────────────────╢
+║ [ About this System ]                                                       ║
+║ user@os1337-demo                                                            ║
+║ OS: OS/1337 v22.04 LTS - amd64                                              ║
+║ Host: SNUNMU T6 Pro Compute Stick PC                                        ║
+║ Kernel: linux-6.1.0-2-generic                                               ║
+║ Uptime: 4 hours, 20 mins                                                    ║
+║ Packages: 512 (dpkg)                                                        ║
+║ Shell: fish 3.5.1, bash 5.0.17                                              ║
+║ Resolution: 80x25                                                           ║
+║ CPU: Intel Atom  x7-Z8750 (4) @ 2.560GHz                                    ║
+║ GPU: Intel Cherry Trail Graphics Controller                                 ║
+║ Memory: 256MiB / 8192MiB                                                    ║
+╚[NAV][ ═> Start <═ ]                             [SCREEN 0/0][ !0 ][BAT:100%]╝
