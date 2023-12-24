@@ -11,5 +11,15 @@ alias cls='clear'
 alias dir='ls -ahl'
 alias unixtime='date +%s'
 ### Output Unixtime
-alias ding='echo -ne '\007''
-### Create a Beep [will only make a system beep if output is redirected to a local or unused console]
+alias ding='printf '\a''
+### Create a Beep [printing out BELL character to stdout]
+### See: https://github.com/OS-1337/OS1337/issues/19#issuecomment-1867469203
+
+function isup() { ping -a -b -c 1 -D "$@"; }
+###	Single Ping attempt to a specific host which has to be specified i.e. "isup 192.168.0.1"
+### This is done to see if a host "is up"...
+
+alias pub4='wget -O http://ip4only.me/api/ ; echo;'
+### find public IPv4 adress
+### see:    http://ip4only.me/
+### NOTE:   Lack of IPv4 connectivity will result in a 404 error!
