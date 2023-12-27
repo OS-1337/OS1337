@@ -23,7 +23,7 @@ The Core Edition should work as a minimalist Floppy that one can use to install 
   - Basic Terminal / Console Support
     - ANSI/ISO ``AT`` QWERTY Keyboard
     - Local 80x25 Terminal
-  - Necessary Drivers for ISA & PCI support
+  - Necessary Drivers for ISA support
 - ``toybox` Userland 0.8.10
   - Basic Tools
     - ``cat``
@@ -62,8 +62,8 @@ The Core Edition should work as a minimalist Floppy that one can use to install 
     - ``sync``
     - ``uname``
     - ``umount``
-    - ``wget``
+    - ``wget`` (w/o ``HTTPS`` support!)
 - Dropbear 2022.83
-  - ``dbclient`` [compiled as a standalone ``ssh``client]
+  - ``dbclient`` [compiled as a standalone ``ssh`` client]
 - ``kilo``
   - A minimalist Text Editor
