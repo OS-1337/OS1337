@@ -1,6 +1,6 @@
 ::sysinit:/etc/init
 ::askfirst:/bin/toybox
-::restart:/bin/toybox reboot
+::restart:/bin/init
 ::ctrlaltdel:/bin/toybox reboot
 ::shutdown:/bin/toybox umount -a -r
 ::ssh:/bin/dbclient

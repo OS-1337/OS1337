@@ -1,5 +1,9 @@
 #!/bin/toybox bash
-/bin/toybox init
+/bin/toybox mount -t proc none /proc
+/bin/toybox mount -t sysfs none /sys
+/bin/toybox clear
+/bin/toybox oneit -rn -c /dev/tty0
+/bin/toybox openvt -c 1 -s
 /bin/toybox uname
 /bin/toybox uname -r
 /bin/toybox cat welcome.txt
