@@ -5,3 +5,12 @@
 *.iml
 out
 gen
+
+##	Working Directories used by the scripts.
+###	Workspace
+/build/working/
+###	Downloads
+/build/downloads/
+###	Build
+/build/os1337-core/
+
