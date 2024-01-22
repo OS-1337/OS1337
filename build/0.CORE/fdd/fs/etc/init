@@ -4,6 +4,9 @@
 /bin/toyboy mount -t devfs none /dev
 /bin/toybox lspci
 /bin/toybox lsusb
+/bin/toybox echo -ne '\007'
+/bin/toybox sleep 1
+/bin/toybox echo -ne '\007'
 /bin/toybox uname
 /bin/toybox uname -r
 /bin/toybox cat welcome.txt
