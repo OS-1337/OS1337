@@ -1,7 +1,7 @@
 #!/bin/toybox bash
 /bin/toybox mount -t proc none /proc
 /bin/toybox mount -t sysfs none /sys
-/bin/toyboy mount -t devfs none /dev
+/bin/toyboy mount -nvt tmpfs none /dev
 /bin/toybox lspci
 /bin/toybox lsusb
 /bin/toybox echo -ne '\007'
