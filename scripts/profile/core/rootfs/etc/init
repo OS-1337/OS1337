@@ -1,10 +1,15 @@
 #!/bin/toybox bash
 /bin/toybox mount -t proc none /proc
 /bin/toybox mount -t sysfs none /sys
-/bin/toybox clear
-/bin/toybox oneit -rn -c /dev/tty0
-/bin/toybox openvt -c 1 -s
+/bin/toyboy mount -nvt tmpfs none /dev
+/bin/toybox lspci
+/bin/toybox lsusb
+/bin/toybox echo -ne '\007'
+/bin/toybox sleep 1
+/bin/toybox echo -ne '\007'
 /bin/toybox uname
 /bin/toybox uname -r
 /bin/toybox cat welcome.txt
-/bin/toybox bash
+/bin/toybox oneit -rn -c /dev/tty0 /bin/toybox bash
+/bin/toybox oneit -rn -c /dev/console /bin/toybox bash
+/bin/toybox oneit -rn -c /bin/toybox openvt -c 0 -s
