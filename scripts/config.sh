@@ -13,7 +13,7 @@ source ./$profile_dir/config.sh
 
 # Download Information
 # Versions
-linux_version="6.6.7"
+linux_version="6.6.6"
 toybox_version="0.8.10"
 musl_version="1.2.4"
 dropbear_version="2022.83"
