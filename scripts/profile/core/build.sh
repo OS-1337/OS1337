@@ -1,6 +1,10 @@
 #! /usr/bin/env bash
 
 echo "Current directory is $PWD"
+
+./pkgs/make-mlb.sh
+#read -p "Press any key to continue... " -n1 -s
+
 ./pkgs/make-minimal-filesystem.sh
 #read -p "Press any key to continue... " -n1 -s
 
