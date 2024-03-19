@@ -2,12 +2,6 @@
 
 echo "Current directory is $PWD"
 
-./pkgs/make-mlb.sh
-#read -p "Press any key to continue... " -n1 -s
-
-./pkgs/make-minimal-filesystem.sh
-#read -p "Press any key to continue... " -n1 -s
-
 ./pkgs/musl-cross.sh
 #read -p "Press any key to continue... " -n1 -s
 
@@ -20,9 +14,18 @@ echo "Current directory is $PWD"
 ./pkgs/make-initramfs.sh
 #read -p "Press any key to continue... " -n1 -s
 
+./pkgs/make-image.sh
+
+./pkgs/make-minimal-filesystem.sh
+#read -p "Press any key to continue... " -n1 -s
+
+
+./pkgs/make-mlb.sh
+#read -p "Press any key to continue... " -n1 -s
+
 ./pkgs/build-linux.sh
 #read -p "Press any key to continue... " -n1 -s
 
-./pkgs/make-image.sh
+
 
 exit
