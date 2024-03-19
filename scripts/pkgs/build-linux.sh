@@ -37,13 +37,13 @@ echo 'Configured.'
 
 echo 'Building linux [i486]'
 
-LDFLAGS=--static CROSS_COMPILE=$cross_dir CFLAGS="-Os" make ARCH=x86 -j $(( $(nproc) + 1 )) bzImage
+sudo LDFLAGS=--static CROSS_COMPILE=$cross_dir CFLAGS="-Os" make ARCH=x86 -j $(( $(nproc) + 1 )) bzImage
 echo 'Done.'
 
 cd ..
 mkdir -pv ./i486
-mv ./linux/arch/x86/boot/bzImage ../$base_dir
-mv ./linux/.config ../$base_dir/linux.config
+sudo mv ./linux/arch/x86/boot/bzImage ../$base_dir
+sudo mv ./linux/.config ../$base_dir/linux.config
 cd ../../scripts
 
 echo "Completed."
