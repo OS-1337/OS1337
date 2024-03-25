@@ -19,13 +19,13 @@ cp -r ../i486-linux-musl-cross .
 
 echo 'Building mlb [i386]'
 
-sudo LDFLAGS=--static CROSS_COMPILE=$cross_dir CFLAGS="-Os" make ARCH=x86
+LDFLAGS=--static CROSS_COMPILE=$cross_dir CFLAGS="-Os" make ARCH=x86
 echo 'Done.'
 
 cd ..
 mkdir -pv ./i486
-sudo mv ./mlbinstall ../$base_dir
-sudo mv ./mlb/.config ../$base_dir/mlb.config
+mv ./mlbinstall ../$base_dir
+mv ./mlb/.config ../$base_dir/mlb.config
 cd ../../scripts
 
 echo "Completed."

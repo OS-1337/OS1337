@@ -8,7 +8,7 @@ echo 'Creating initramfs.'
 
 sudo chmod +rwx ./etc/init
 sudo chown -R root:root .
-sudo find . | cpio -H newc -o | xz -9 --check=crc32 > ../rootfs.cpio.xz
+find . | cpio -H newc -o | xz -9 --check=crc32 > ../rootfs.cpio.xz
 ls -alh
 echo 'Done.'
 

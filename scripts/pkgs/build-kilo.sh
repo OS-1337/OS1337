@@ -13,11 +13,11 @@ else
 fi
 cd kilo
 
-sudo make clean
-sudo LDFLAGS=-W1,--gc-sections,--static CROSS_COMPILE=../$cross_dir CFLAGS="-Os" ARCH=x86 make -j $(( $(nproc) + 1 ))
+make clean
+LDFLAGS=-W1,--gc-sections,--static CROSS_COMPILE=../$cross_dir CFLAGS="-Os" ARCH=x86 make -j $(( $(nproc) + 1 ))
 strip kilo
 
-sudo cp -v ./kilo ../../$base_dir/rootfs/bin/
+cp -v ./kilo ../../$base_dir/rootfs/bin/
 
 cd ../../../scripts/
 
