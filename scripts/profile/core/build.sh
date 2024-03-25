@@ -8,9 +8,6 @@ echo "Current directory is $PWD"
 ./pkgs/musl-cross.sh
 #read -p "Press any key to continue... " -n1 -s
 
-./pkgs/build-linux.sh
-#read -p "Press any key to continue... " -n1 -s
-
 ./pkgs/build-toybox.sh
 #read -p "Press any key to continue... " -n1 -s
 
@@ -21,6 +18,9 @@ echo "Current directory is $PWD"
 #read -p "Press any key to continue... " -n1 -s
 
 ./pkgs/make-initramfs.sh
+#read -p "Press any key to continue... " -n1 -s
+
+./pkgs/build-linux.sh
 #read -p "Press any key to continue... " -n1 -s
 
 ./pkgs/make-image.sh
