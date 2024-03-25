@@ -15,7 +15,7 @@ mkdosfs $image_name
 echo 'Done.'
 
 echo 'installing mlb bootloader into the image...'
-sudo mlbinstall $image_name bzImage
+sudo ./mlbinstall $image_name bzImage
 echo 'Done.'
 
 echo 'mounting image and installing the OS/1337 into it...'

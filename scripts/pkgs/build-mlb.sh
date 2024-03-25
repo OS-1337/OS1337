@@ -25,6 +25,7 @@ echo 'Done.'
 cd ..
 mkdir -pv ./i486
 mv ./mlbinstall ../$base_dir
+sudo chmod +rwx ../$base_dir/mlbinstall
 mv ./mlb/.config ../$base_dir/mlb.config
 cd ../../scripts
 
