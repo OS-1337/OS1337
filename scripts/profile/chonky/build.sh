@@ -19,6 +19,9 @@ echo "Current directory is $PWD"
 ./pkgs/build-kilo.sh
 #read -p "Press any key to continue... " -n1 -s
 
+./pkgs/build-mlb.sh
+#read -p "Press any key to continue... " -n1 -s
+
 ./pkgs/make-initramfs.sh
 #read -p "Press any key to continue... " -n1 -s
 
