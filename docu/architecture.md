@@ -1,0 +1,58 @@
+#   OS/1337
+### Architecture Guide
+
+This is a guide to how OS/1337 has been designed, what the design goals are and how they are being achieved.
+
+---
+
+##	Goals
+
+###
+### 1. Creating the Smallest possible yet still useable Linux system.
+
+Small systems like [Floppinux](https://github.com/w84death/floppinux) are nice, but unless they also have some tools they are mostly a [*"demoscene"*](https://en.wikipedia.org/wiki/Demoscene)-esque exercise on how little space one needs to get things on a screen.
+- Whilst it comes with a [good documentation](https://archive.org/details/floppinux-manual) we [archived here as well](docu/external/floppinux/floppinux-manual.pdf) it's not a useable system in that it allows one to do anything with it but put characters on a screen. 
+  - This can be done *way better* as [Rob Landley](http://landley.net/toybox/), maintainer of [toybox](https://github.com/landley/toybox) [pointed out in a hands-on tutorial](https://www.youtube.com/watch?v=Sk9TatW9ino).
+
+*Smallness* implies if not *necessitates* the use of simple and compact solutions that are space-efficient.
+Cutting corners in terms of functionality is thus a necessity.
+- Kernel: [``linux``](https://kernel.org/) - since it's easy to build and has the widest support in terms of Hardware.
+  - Drivers: Only 80x25 MDA console, PC beeper and *essential* stuff to be bootable and get basic access to storage and networking.
+- Userland: [toybox](https://github.com/landley/toybox), which also includes most of the essential tools to get a system up and running.
+  - Which is illustrated with [``mkroot``](https://github.com/landley/toybox/blob/master/mkroot/README), a fully fledged *toybox + musl / linux Distribution* that takes up less than 5 MB.
+  - C library: [musl](https://en.wikipedia.org/wiki/Musl) - more specifically [musl-cross](https://landley.net/bin/toolchains/latest/).
+    - All binaries are statically linked against it to avoid *"dependency hell"* !
+- Bootloader: Originally [``syslinux``](https://wiki.syslinux.org/wiki/index.php?title=The_Syslinux_Project), but currently switching over to [``mlb``](https://github.com/OS-1337/mlb).
+  - The ``initramfs.cpio.xz`` has to be integrated into the Kernel ``bzImage``.
+- Additional Software:
+  - [``kilo``](https://github.com/antirez/kilo), a lightweight text editor.
+  - [``dropbear``](https://github.com/mkj/dropbear) - more specifically [```dbclient```](https://lists.ucc.gu.uwa.edu.au/pipermail/dropbear/2004q3/000022.html) as [SSH](https://en.wikipedia.org/wiki/Secure_Shell#OpenSSH_and_OSSH) client.
+- Optional Software:
+  - [``spm``](https://github.com/OS-1337/spm) as a *simple* [Package Manager](https://en.wikipedia.org/wiki/Package_manager) to add and remove programs and expand OS/1337 from the "[``CORE``](build/0.CORE) Edtion" onwards.
+    - A [repository](https://github.com/OS-1337/pkgs) to get the most needed packages easily.
+
+###
+### 2. Make a fully reproduceable and auditable System.
+
+Whilst in theory *"everything with available sourcecode can be audited"*, it's vital to make this feasible.
+- Noone's gonna audit the entire GNU/Linux stack because that's [way too expensive - even for NORAD](https://www.youtube.com/watch?v=MkJkyMuBm3g&t=715s).
+
+This means avoiding complexity and *bloat* even at the cost of functionality.
+
+###
+###	3. Make it available under a [*permissive license*](https://en.wikipedia.org/wiki/Permissive_software_license) to increase adoption.
+
+This is done by choosing [0BSD](https://en.wikipedia.org/wiki/BSD_licenses#0-clause_license_(%22BSD_Zero_Clause_License%22)) as [license](LICENSE.md).
+- Not every juristiction (i.e. Germany) recognizes *"Public Domain"* as a form of license (since one cannot legally disavow *Authorship*), so [the next best thing](https://www.youtube.com/watch?v=MkJkyMuBm3g&t=2030s) is neessary.
+
+[GPLv3](https://en.wikipedia.org/wiki/GNU_General_Public_License#Version_3) is extremely toxic to the point that it even harms GPLv2-only projects!
+- [Copyleft](https://en.wikipedia.org/wiki/Copyleft) fails at [attracting contributions and funding](https://www.youtube.com/watch?v=MkJkyMuBm3g&t=1607s) and enforcing it in a *hamfisted* approach is [evidently counterproductive](https://www.youtube.com/watch?v=MkJkyMuBm3g&t=302s).
+  - Escalating it into *"Asshole Licensing"* like [AGPLv3](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License) and [SSPL](https://en.wikipedia.org/wiki/Server_Side_Public_License) is just an act of spite and completely disregards the reality of both IP and patent laws!
+
+###
+###	4. [Document it](docu/architecture.md) so well that it's build process and [Architecture](docu/system-image-architecture.pdf) is understandable with minimal learning.
+
+This not only applies to *commenting code*, but writing documentation so people can *manually build it from scratch* on a modest build envoirment.
+- This is done to not just aid *reproduceability*, *auditability* and *simplicity* but provide *trust through transparency*.
+
+It should be possible to answer *"Why?"* for every line of code just by common sense, technical dependency and documentation alone.

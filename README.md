@@ -6,7 +6,7 @@
 
 ### INDEX
 - #### [Getting Started](docu/getting-started.md)
-- #### [Building OS/1337](docu/building.md)
+- #### [Building OS/1337](docu/building-packages)
 - #### [Project Goals](docu/project-goals.md)
 - #### [Roadmap](docu/roadmap.md) for OS/1337 development
 - #### [Acknowledgements](docu/acknowledgements.md) of external helpers
