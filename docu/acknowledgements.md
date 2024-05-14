@@ -1,6 +1,6 @@
 #   OS/1337
 ### Acknowledgements
-The labour that others didcontribute or was harnessed in OS71337.
+The labour that others did contribute or was harnessed in OS71337.
 
 ---
 
