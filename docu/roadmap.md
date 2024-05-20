@@ -19,7 +19,7 @@ What is the intended Roadmap for OS/1337:
     - Grapics: [MDA](https://en.wikipedia.org/wiki/IBM_Monochrome_Display_Adapter) - local console @ 80x25 *- done!*
     - Sound: PC Beeper *- done!*
 - Userland: [```toybox```](scripts/pkgs/build-toybox.sh)
-- Bootloader: [```mlb```](scripts/pkgs/build-mlb.sh)
+- Bootloader: [```mlb```](scripts/pkgs/build-mlb.sh) instead of ```syslinux``` [to save space](https://github.com/OS-1337/OS1337/issues/10).
 - Init Script: [```/etc/init```](scripts/profile/core/rootfs/etc/init) *- done!*
 - Welcome Message: [```/welcome.txt```](scripts/profile/core/rootfs/welcome.txt) *- done!*
 - SSH Client: [```Dropbear```](scripts/pkgs/build-dbclient.sh)
@@ -38,7 +38,7 @@ What is the intended Roadmap for OS/1337:
 - LiveCD versions with more packages
   - [spm](https://github.com/OS-1337/spm) as [package manager](https://en.wikipedia.org/wiki/Package_manager)
     - See [Wishlist for Packages](https://github.com/OS-1337/pkgs/blob/main/docs/WISHLIST.tsv)
-- Installer for installing onto a HDD/SSD
+- [Installer for installing onto a HDD/SSD](https://github.com/OS-1337/OS1337/issues/9)
   - essential partitioning tools like cfdisk, mkfs.ext2, etc.
   - *Netinstaller* that also allows downloading the latest image into RAM and writing it to the target drive.
     - Similar to the [Raspberry Pi NetInstaller](https://www.raspberrypi.com/documentation/computers/getting-started.html#install-over-the-network) abeit with a [TUI](https://en.wikipedia.org/wiki/Text-based_user_interface)-based interface. Closer to [YaST](https://en.wikipedia.org/wiki/YaST) and [Debian Installer](https://en.wikipedia.org/wiki/Debian-Installer).
