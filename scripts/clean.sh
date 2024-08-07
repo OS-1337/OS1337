@@ -1,4 +1,6 @@
 #! /usr/bin/env bash
+##	This Script removes any files and cleans the build directories
+
 source ./config.sh
 
 full=false

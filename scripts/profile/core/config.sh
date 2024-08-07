@@ -1,5 +1,5 @@
 #! /usr/bin/env bash
-# Helper variables and functions specific to this profile.
+# Helper variables and functions specific to the "Core Edition" profile.
 
 # Image settings
 image_size=1440 # kB

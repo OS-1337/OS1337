@@ -1,4 +1,5 @@
 #! /usr/bin/env bash
+##	This Script builds dbclient, the client-only version of dropbear.
 
 source ./config.sh
 

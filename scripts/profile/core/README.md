@@ -23,6 +23,7 @@ The Core Edition should work as a minimalist Floppy that one can use to install 
   - Basic Terminal / Console Support
     - ANSI/ISO ``AT`` QWERTY Keyboard
     - Local 80x25 Terminal
+      - [```MDA```](https://en.wikipedia.org/wiki/IBM_Monochrome_Display_Adapter) - Compliant Display Output through BIOS interrupts.
   - Necessary Drivers for ISA support
 - ``toybox` Userland 0.8.10
   - Basic Tools

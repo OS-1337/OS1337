@@ -1,4 +1,5 @@
 #! /usr/bin/env bash
+##	This Script builds mlb, a lightweight and minimalist bootloader for OS/1337.
 
 source ./config.sh
 

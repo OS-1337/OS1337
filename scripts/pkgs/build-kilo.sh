@@ -1,4 +1,5 @@
 #! /usr/bin/env bash
+##	This Script builds kilo, a minimalist text editor.
 
 source ./config.sh
 

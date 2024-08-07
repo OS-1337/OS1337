@@ -1,4 +1,5 @@
 #!/bin/bash
+##	This script launches the OS/1337 image in QEMU for testing.
 
 source ./config.sh
 

@@ -1,4 +1,5 @@
 #! /usr/bin/env bash
+##	This script creates all the necessary files and symlinks for OS/1337 to work as a fully functional linux.
 
 source ./config.sh
 

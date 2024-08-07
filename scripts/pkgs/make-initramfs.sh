@@ -1,4 +1,6 @@
 #! /usr/bin/env bash
+##	This Script turns the pre-generated folders and files into the initramfs that OS/1337 loads and runs off.
+
 
 source ./config.sh
 

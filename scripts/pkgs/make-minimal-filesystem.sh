@@ -1,4 +1,5 @@
 #! /usr/bin/env bash
+##	This Script generates a minimalist filesystem directory structure for OS/1337.
 
 source ./config.sh
 

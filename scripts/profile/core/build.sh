@@ -1,4 +1,5 @@
 #! /usr/bin/env bash
+##	This script builds the "core Edition" of OS/1337.
 
 echo "Current directory is $PWD"
 

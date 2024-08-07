@@ -1,4 +1,5 @@
 #! /usr/bin/env bash
+##	This script downloads and unpacks musl-cross, which is the C Standard Library for OS/1337.
 
 source ./config.sh
 

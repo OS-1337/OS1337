@@ -1,4 +1,5 @@
 #! /usr/bin/env bash
+##	This Script builds toybox, a compact single-executeable userland.
 
 source ./config.sh
 

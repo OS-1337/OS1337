@@ -1,4 +1,5 @@
 #! /usr/bin/env bash
+##	This Script generates an image file with the the necessary FAT-12 filesystem in it so that all the files for OS/1337 can fit in it.
 
 source ./config.sh
 

@@ -16,8 +16,8 @@ source ./$profile_dir/config.sh
 linux_version="6.6.6"
 toybox_version="0.8.11"
 musl_version="1.2.4"
-dropbear_version="2022.83"
-mlb_version=""
+dropbear_version="2022.85"
+mlb_version="20240312"
 
 # Filenames
 linux_filename="linux-$linux_version.tar.xz"

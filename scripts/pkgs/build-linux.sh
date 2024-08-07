@@ -1,4 +1,5 @@
 #! /usr/bin/env bash
+##	This Script builds the linux kernel for OS/1337 with a lightweight configuration.
 
 source ./config.sh
 
