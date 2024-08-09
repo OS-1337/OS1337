@@ -10,6 +10,8 @@
 /bin/toybox uname
 /bin/toybox uname -r
 /bin/toybox cat welcome.txt
+/bin/toybox sleep 1
+/bin/toybox echo -ne '\007'
 /bin/toybox oneit -rn -c /dev/tty0 /bin/toybox bash
 /bin/toybox oneit -rn -c /dev/console /bin/toybox bash
 /bin/toybox oneit -rn -c /bin/toybox openvt -c 0 -s

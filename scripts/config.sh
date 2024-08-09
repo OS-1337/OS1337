@@ -1,5 +1,5 @@
 #! /usr/bin/env bash
-# Helper variables and functions.
+# This file includes all Helper variables and functions.
 
 # Cross compilation flag.
 cross_dir=i486-linux-musl-cross/bin/i486-linux-musl-
