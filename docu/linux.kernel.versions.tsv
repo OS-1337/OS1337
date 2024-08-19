@@ -1,0 +1,6 @@
+NAME	VERSION	SOURCE	COMMENT
+linux-legacy-i386	3.6.9	https://mirrors.edge.kernel.org/pub/linux/kernel/v3.x/linux-3.6.9.tar.xz	Last Version of Linux with i386 support
+linux-lts-legacy-i386	3.4.99	https://mirrors.edge.kernel.org/pub/linux/kernel/v3.x/linux-3.4.99.tar.xz	Last Linux Kernel with i386 support - LTS version
+linux-initial	6.6.6	https://mirrors.edge.kernel.org/pub/linux/kernel/v6.x/linux-6.6.6.tar.xz	Initial release version for OS/1337 (Kernel 6.6.6)
+linux-lts-latest	6.6.47	https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.47.tar.xz	Latest Linux Kernel - LTS version
+linux-stable-latest	6.10.6	https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.10.6.tar.xz	Latest Stable Release
