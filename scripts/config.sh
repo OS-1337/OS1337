@@ -16,8 +16,8 @@ source ./$profile_dir/config.sh
 linux_version="6.6.6"
 toybox_version="0.8.11"
 musl_version="1.2.4"
-dropbear_version="2022.85"
-mlb_version="20240312"
+dropbear_version="2024.85"
+mlb_version="v0.0.1"
 
 # Filenames
 linux_filename="linux-$linux_version.tar.xz"
@@ -25,7 +25,7 @@ toybox_filename="toybox-$toybox_version.tar.gz"
 musl_cross_filename="i486-linux-musl-cross.tar.xz"
 musl_filename="musl-$musl_version.tar.gz"
 dropbear_filename="dropbear-$dropbear_version.tar.bz2"
-mlb_filename="master.zip"
+mlb_filename="$mlb_version.tar.gz"
 
 #URLs
 linux_url="https://cdn.kernel.org/pub/linux/kernel/v6.x/$linux_filename"
@@ -33,15 +33,16 @@ toybox_url="http://landley.net/toybox/downloads/$toybox_filename"
 musl_cross_url="https://landley.net/bin/toolchains/latest/$musl_cross_filename"
 musl_url="https://musl.libc.org/releases/$musl_filename"
 dropbear_url="https://matt.ucc.asn.au/dropbear/releases/$dropbear_filename"
-mlb_url="https://github.com/OS-1337/mlb/archive/refs/heads/$mlb_filename"
+mlb_url="https://github.com/OS-1337/mlb/archive/refs/tags/$mlb_filename"
+
 
 # Package Descriptions
-linux_desc="latest kernel release"
-toybox_desc="toybox"
-musl_cross_desc="musl-cross"
-musl_desc="musl"
-dropbear_desc="dropbear"
-mlb_desc="mlb"
+linux_desc="Linux Kernel 6.6.6"
+toybox_desc="toybox - latest stable release"
+musl_cross_desc="musl-cross - the crosscompiling toolchain"
+musl_desc="musl c library"
+dropbear_desc="dropbear - a compact SSH Server / Client"
+mlb_desc="mlb - the minimalist linux bootloader"
 
 function download_files(){
   local url=$1
