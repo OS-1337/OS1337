@@ -14,3 +14,6 @@ gen
 ###	Build
 /build/os1337-core/
 
+##	Other files to ignore and not contribute to the sourcecode tree
+/scripts/clean
+/rootfs.cpio.xz
