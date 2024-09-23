@@ -1,17 +1,26 @@
 #!/bin/toybox bash
+##	init file for OS/1337 "core" edition
 /bin/toybox mount -t proc none /proc
 /bin/toybox mount -t sysfs none /sys
 /bin/toyboy mount -nvt tmpfs none /dev
+##	mount /proc, /sys & /dev
 /bin/toybox lspci
 /bin/toybox lsusb
+##	Check PCI & USB devices
 /bin/toybox echo -ne '\007'
+##	first beep
 /bin/toybox sleep 1
 /bin/toybox echo -ne '\007'
+##	second beep
 /bin/toybox uname
 /bin/toybox uname -r
+##	System info
 /bin/toybox cat welcome.txt
+##	printing welcome message
 /bin/toybox sleep 1
 /bin/toybox echo -ne '\007'
+##	3rd beep - signalling the system is booted up.
 /bin/toybox oneit -rn -c /dev/tty0 /bin/toybox bash
 /bin/toybox oneit -rn -c /dev/console /bin/toybox bash
 /bin/toybox oneit -rn -c /bin/toybox openvt -c 0 -s
+##	Lauching virtual terminal sessions on tty, console and VGA/MDA output
