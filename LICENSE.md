@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: 0BSD
+
 #	OS/1337	
 ## License
 
@@ -9,7 +11,7 @@ TL;DR: it's [0BSD](https://en.wikipedia.org/wiki/BSD_licenses#0-clause_license_(
 ##### License Text:
 
 ````
-Copyright © 2023 
+Copyright © 2023-2024 
 by Kevin Karhan <kevin@karhan.guru> 
 and Contributors to OS/1337 <admin@os1337.com> 
 
