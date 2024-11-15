@@ -48,7 +48,7 @@ Simply because a battle-tested, well maintained, versatile and with ample driver
 
 ### [Toybox Userland](https://landley.net/toybox/)
 Simply because the absolute bare-minimum System should comfortably fit on a 1.440kB FDD.
-- Toybox also [includes the most essential functions and tools](https://landley.net/toybox/help.html) so the [bare minimum system is the Toybox binary which would include the Kernel and C library](https://landley.net/toybox/faq.html#cross). 
+- Toybox also [includes the most essential functions and tools](https://landley.net/toybox/help.html) so the [bare minimum system is the Toybox binary](https://landley.net/toybox/faq.html#cross) + Kernel and C library. 
   - Not to mention [Toybox is easy to setup](https://landley.net/toybox/faq.html#install) [and build from scratch](https://landley.net/toybox/faq.html#mkroot), which is desireable for those wanting a system that can be audited at a lower cost. 
     - OFC one could use [BusyBox](https://www.busybox.net/) or even a *BSD [Userland](https://en.wikipedia.org/wiki/User_space_and_kernel_space) if they so desire...
       - But that's NOT THE SCOPE OF THIS PROJECT!
