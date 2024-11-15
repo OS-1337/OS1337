@@ -91,15 +91,25 @@ To enable reproducible builds and spins.
 - "Slim Clients"  & "Thin Clients"
   - [hp t620](https://support.hp.com/us-en/document/c04017240)
     - OFC that thin client is still fast enough to run BunsenLabs Linux and Tails but that doesn't mean it'll remain this way for very long...
-- Legacy Systems too slow or never designed to even run any GUI
-  - [Netbooks](https://en.wikipedia.org/wiki/Netbook)
-    - [VAIO P series](https://en.wikipedia.org/wiki/Sony_Vaio_P_series) 
-      - [Sony VAIO P11Z](https://www.notebookcheck.net/Sony-Vaio-VGN-P11Z-G.14468.0.html) 
-          - Mostly due to Intel's Fuckup that is the [GMA500](https://www.intel.com/content/www/us/en/support/products/81506/graphics/legacy-graphics/intel-graphics-media-accelerator-500-intel-gma-500.html) Onboard-GPU.
-    - [VIA OpenBook](https://en.wikipedia.org/wiki/VIA_OpenBook)
+- Legacy Systems too slow or never designed to even run any fancy modern GUI that requires 3D acceleration
+  - [i486SX](https://en.wikipedia.org/wiki/I486SX) and up
+    - [Netbooks](https://en.wikipedia.org/wiki/Netbook)
+      - [Asus Eee Series](https://en.wikipedia.org/wiki/Asus_Eee_PC)
+        - [Eee PC 7xx](https://en.wikipedia.org/wiki/Asus_Eee_PC#Eee_700_series)
+          - Since it's the first Netbook and despite it's underwhelming hardware is still a good baseline.
+      - [VAIO P series](https://en.wikipedia.org/wiki/Sony_Vaio_P_series) 
+        - [Sony VAIO P11Z](https://www.notebookcheck.net/Sony-Vaio-VGN-P11Z-G.14468.0.html) 
+            - Mostly due to Intel's Fuckup that is the [GMA500](https://www.intel.com/content/www/us/en/support/products/81506/graphics/legacy-graphics/intel-graphics-media-accelerator-500-intel-gma-500.html) Onboard-GPU.
+      - [VIA OpenBook](https://en.wikipedia.org/wiki/VIA_OpenBook)
+  - entry level [amd64](https://en.wikipedia.org/wiki/X86-64) Devices
+    - [Intel Cherry Trail](https://ark.intel.com/content/www/us/en/ark/products/codename/46629/products-formerly-cherry-trail.html) based devices, like cheap entry-level Windows 8.x tablets and [*"Stick PCs"*](https://en.wikipedia.org/wiki/Stick_PC)...
+      - [Intel Compute Stick](https://en.wikipedia.org/wiki/Intel_Compute_Stick)
+      - [Dell Wyse 3040](https://www.dell.com/en-in/shop/business-pcs-desktop-computers/wyse-3040-thin-client/spd/wyse-3040-thin-client), cheap, compact, fanless and [power-efficient](https://www.storagereview.com/review/dell-wyse-3040-review) Thin Client that can be picked up very cheaply.
 - Select SoC's and Embedded as well as legacy devices.
   - [Raspberry Pi Zero](https://www.raspberrypi.com/products/raspberry-pi-zero/) [W](https://www.raspberrypi.com/products/raspberry-pi-zero-w/)
+    - Simply because it's technically *"the cheapest computer one can buy brand new"* with an MSRP of $5(P i0)-$10(Pi0W) and because everything that runs on a [Pi0(W)](https://en.wikipedia.org/wiki/Raspberry_Pi#Specifications) shold also run on the Pi0W2 and any other Raspberry Pi SBC due to being backwards-compatible to the [ARMv6r11](https://en.wikipedia.org/wiki/ARM11#Chips) SoC being used.
   - more depending on whether or not someone wants to build for and maintain them.
+    - A *"generic ARM64+UEFI"* image is desireable, but sadly hardware to test on is not available to the maintainers as of writing.
 
 In theory it could also be used as a "Rescue System" or similar, but there are better tools out there like [Rescatux](https://www.supergrubdisk.org/rescatux/) and [Trinity Rescue Kit](https://trinityhome.org/).
 #### See [Project Goals](docu/project-goals.md) for OS/1337
