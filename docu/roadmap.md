@@ -15,15 +15,15 @@ What is the intended Roadmap for OS/1337:
 ### [Basic System for i486-SX and up on 1.440kB Floppy](build/0.CORE)
 - Kernel: [```linux-6.6.6```](scripts/pkgs/build-linux.sh)
   - Minimalist just to be able to run Toybox and provide basic Ethernet Networking
-    - Supports the following NICs: AMD, Intel, Realtek, VIA,
+    - Supports the following NICs: AMD, Intel, Realtek, VIA, *- TBA!*
     - Grapics: [MDA](https://en.wikipedia.org/wiki/IBM_Monochrome_Display_Adapter) - local console @ 80x25 *- done!*
     - Sound: PC Beeper *- done!*
 - Userland: [```toybox```](scripts/pkgs/build-toybox.sh)
-- Bootloader: [```mlb```](scripts/pkgs/build-mlb.sh) instead of ```syslinux``` [to save space](https://github.com/OS-1337/OS1337/issues/10).
+- Bootloader: [```mlb```](scripts/pkgs/build-mlb.sh) instead of ```syslinux``` [to save space](https://github.com/OS-1337/OS1337/issues/10). *- WIP!*
 - Init Script: [```/etc/init```](scripts/profile/core/rootfs/etc/init) *- done!*
 - Welcome Message: [```/welcome.txt```](scripts/profile/core/rootfs/welcome.txt) *- done!*
-- SSH Client: [```Dropbear```](scripts/pkgs/build-dbclient.sh)
-- Editor: [```kilo```](scripts/pkgs/build-kilo.sh)
+- SSH Client: [```Dropbear```](scripts/pkgs/build-dbclient.sh) *- done!*
+- Editor: [```kilo```](scripts/pkgs/build-kilo.sh) *- done!*
 #### All Components are statically compiled against musl-cross *and if applicable* to their dependencies.
 
 ---
@@ -34,7 +34,7 @@ What is the intended Roadmap for OS/1337:
 ## Future Releases - v0.x
 ### Quality of Life Features
 - Ramdisk for non-persistent storage
-  - Boot-to-RAMDISK option [already status-quo!]
+  - Boot-to-RAMDISK option *- already status-quo!*
 - LiveCD versions with more packages
   - [spm](https://github.com/OS-1337/spm) as [package manager](https://en.wikipedia.org/wiki/Package_manager)
     - See [Wishlist for Packages](https://github.com/OS-1337/pkgs/blob/main/docs/WISHLIST.tsv)
