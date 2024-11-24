@@ -48,16 +48,12 @@ A [sadly unmaintained](http://www.toms.net/rb/) Linux Distribution designed to f
 A minimalist Busybox/Linux distro that could turn any [i386-SX](https://en.wikipedia.org/wiki/I386#80386SX) with 12MB RAM, 2 NICs and a 1440kB FDD into a functional firewall. 
 
 ####
-### [Aboriginal Linux](http://landley.net/aboriginal/)
+### [Aboriginal Linux](http://landley.net/aboriginal/) *nee* [Firmware Linux](https://landley.net/code/firmware/old/)
 A minimalist Busybox/Linux Distribution maintained by Rob Landley (the ex-maintainer of BusyBox and [now-maintainer of toybox](http://landley.net/toybox/)) which aimed to be the smallest, "self-hosting" aka. self-compiling Linux Distribution.
 
 #### 
 ### [mkroot](https://github.com/landley/mkroot)
-The Successor Project of Aboriginal Linux which [has been marged into toybox since 2020.](https://github.com/landley/toybox) 
-
-#### 
-### [Firmware Linux](https://landley.net/code/firmware/old/)
-A similar project to Aboriginal Linux but predating it.
+The Successor Project of Aboriginal Linux which [has been marged into toybox since 2020.](https://github.com/landley/toybox)
 
 #### 
 ### [ttylinux](http://www.minimalinux.org/ttylinux/)
