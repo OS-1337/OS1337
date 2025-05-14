@@ -1,8 +1,9 @@
-PRIORITY	TEST SYSTEM AVAILABLE?	ARCHITECTURE	BITS	ENDIANESS	NAME	TYPE	COMMENTS
+PRIORITY	TEST SYSTEM AVAILABLE?	ARCHITECTURE	BITS	ENDIANESS	ARCH NAME	TYPE	COMMENTS
 0	N/A	srcs	--	--	sources	generic	source code for all shipped versions
 1	YES	i486	32	LE	i486	generic	32 bit Intel & AMD CPUs [BIOS]
 TBD	YES	amd64	64	LE	i686-64	generic	64 bit AMD & Intel CPUs [UEFI]
 TBD	YES	rpi0	32	LE	ARMv5r11	custom	Image for Raspberry Pi Zero [BCM2835 SoC]
+TBD	YES	eee701	32	LE	i586	custom	Image for Asus Eee PC 701 [BIOS]
 TBD	YES	p11z	32	LE	i686-atom	custom	Image for Sony Vaio P11Z Netbooks [Atom Z520 CPU]
 TBD	YES	ion330	64	LE	i686-64-atom	custom	Image for nvidia Ion - based Nettops [Atom 330 CPU + GeForce 9400M GPU]
 TBD	YES	bpi0m2	32	LE	ARMv7	custom	Image for Banana Pi Zero M2 [boot.bin]
