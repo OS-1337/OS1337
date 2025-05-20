@@ -1,4 +1,4 @@
-PRIORITY	TEST SYSTEM AVAILABLE?	ARCHITECTURE	BITS	ENDIANESS	ARCH NAME	TYPE	COMMENTS
+PRIORITY	TEST SYSTEM AVAILABLE?	NAME	BITS	ENDIANESS	ARCH	TYPE	COMMENTS
 0	N/A	srcs	--	--	sources	generic	source code for all shipped versions
 1	YES	i486	32	LE	i486	generic	very old 32 bit Intel & AMD CPUs [BIOS]
 2	YES	amd64	64	LE	i686-64	generic	64 bit AMD & Intel CPUs [UEFI]
@@ -13,7 +13,7 @@ TBD	YES	rpi0w2	64	LE	ARMv7	custom	Image for Raspberry Pi Zero 2 W [RP3A0-AU SoC]
 TBD	YES	iatom64	32	LE	i686-64-atom	custom	Image for Intel Atom based Nettops [Atom 330 CPU]
 TBD	YES	xenon	64	BE	ppc64	custom	Image for modded Xbox 360's [Xenon CPU]
 TBD	NO	cell	64	BE	ppc64	custom	'Other OS' ISO for modded Playstation 3 [Cell CPU]
-TBD	NO	opirv2	64	LE	RISC-V64	custom	Image for Orange Pi RV2 [Ki X1 SoC]
+TBD	NO	opirv2	64	LE	riscv64	custom	Image for Orange Pi RV2 [Ki X1 SoC]
 TBD	NO	rpi3	64	LE	ARMv7	custom	Image for Raspberry Pi 3 + CM3 [BCM2837 SoC]
 TBD	NO	w3040	32	LE	i686-atom	custom	Image for Dell Wyse 3040 Thin Client [Atom Z8350 SoC]
 TBD	NO	vortex	32	LE	i486	custom	Image for Vortex86 SoCs [BIOS]
@@ -23,6 +23,7 @@ TBD	NO	arm11v5	32	LE	ARMv5r11	generic	32 bit low-end ARM SoCs [boot.bin]
 TBD	NO	arm64v7	64	LE	ARMv7	generic	64 bit low-end ARM SoCs [UEFI]
 TBD	NO	arm64v8	64	LE	ARMv8	generic	64 bit midrange ARM SoCs [UEFI]
 TBD	NO	arm64v9	64	LE	ARMv9	generic	64 bit highend ARM SoCs [UEFI]
+TBD	NO	riscv64	64	LE	riscv64	generic	64 bit generic RISC-V image
 TBD	NO	iatom32	32	LE	i686-atom	custom	Image for Intel Atom based Netbooks [Atom N270 CPU]
 TBD	NO	ion270	32	LE	i686-atom	custom	Image for nvidia Ion - based Netbooks [Atom N270 CPU + GeForce 9400M GPU]
 TBD	NO	aapple	64	LE	ARMv8.5-A	custom	Image for 'AppleSilicon' Devices [AEFI]
