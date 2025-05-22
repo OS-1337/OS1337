@@ -45,4 +45,4 @@ TBD	NO	oc486	32	LE	i486	custom	Image for OpenCores ao486 FPGA-based implementati
 TBD	NO	mblaze	32	LE	microblaze	generic	For Xilinx MicroBlaze and compatible Soft-CPU inplementations [FPGA]
 TBD	NO	segadc	32	LE	SuperH4	custom	Image for SEGA Dreamcast [Hitachi SuperH-4 CPU]
 TBD	NO	mWatt	64	LE	ppc64le	generic	Image for OpenPower Microwatt [Soft-CPU] implementations
-TBD	NO	pc98i4	32	LE	i486-pc98	custom	Image for NEC PC-9800 machines [i486 and up only].
+TBD	NO	pc9821x	32	LE	i486-pc98	custom	Image for NEC PC-9800 machines [i486 and up only].
