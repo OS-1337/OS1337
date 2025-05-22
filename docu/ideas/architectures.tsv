@@ -42,3 +42,6 @@ TBD	NO	indigo	64	BE	mips3	custom	Image for SGI Workstations [MIPS R4400 and high
 TBD	NO	itanium	64	LE	IA64	generic	Intel Itanium-based Servers
 TBD	NO	viaopen	32	LE	i686	custom	Image for VIA OpenBook - based Netbooks [VIA Nano CPU]
 TBD	NO	oc486	32	LE	i486	custom	Image for OpenCores ao486 FPGA-based implementation [BIOS]
+TBD	NO	mblaze	32	LE	microblaze	generic	For Xilinx MicroBlaze and compatible Soft-CPU inplementations [FPGA]
+TBD	NO	segadc	32	LE	SuperH4	custom	Image for SEGA Dreamcast [Hitachi SuperH-4 CPU]
+TBD	NO	mWatt	64	LE	ppc64le	generic	Image for OpenPower Microwatt [Soft-CPU] implementations
