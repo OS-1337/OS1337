@@ -29,7 +29,7 @@ TBD	NO	riscv32	32	LE	RV32IMAC	generic	32 bit generic mid-range RISC-V image [IMA
 TBD	NO	riscv64	64	LE	RV64IMAC	generic	64 bit generic high-end RISC-V image [IMAC subsets]
 TBD	NO	iatom32	32	LE	i686-atom	custom	Image for Intel Atom based Netbooks [Atom N270 CPU]
 TBD	NO	ion270	32	LE	i686-atom	custom	Image for nvidia Ion - based Netbooks [Atom N270 CPU + GeForce 9400M GPU]
-TBD	NO	aapple	64	LE	ARMv8.5-A	custom	Image for 'AppleSilicon' Devices [AEFI]
+TBD	NO	applea1	64	LE	ARMv8.5-A	custom	Image for 1st Generation 'AppleSilicon' Devices [Apple M1 SoC]
 TBD	NO	apple64	64	LE	i686-64	custom	Image for 64bit Intel-based Macs [AEFI]
 TBD	NO	apple32	32	LE	i686	custom	Image for 32bit Intel-based Macs [AEFI]
 TBD	NO	ppc64a	64	LE	ppc64le	custom	Image for 64bit PowerPC-based Macs [OpenFirmware]
