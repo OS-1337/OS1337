@@ -1,8 +1,8 @@
 PRIORITY	TEST SYSTEM AVAILABLE?	NAME	BITS	ENDIANESS	ARCH	TYPE	COMMENTS
 0	N/A	srcs	--	--	sources	generic	source code for all shipped versions
 1	YES	i486	32	LE	i486	generic	very old 32 bit Intel & AMD CPUs [BIOS]
-2	YES	amd64	64	LE	i686-64	generic	64 bit AMD & Intel CPUs [UEFI]
-3	YES	rpi01	32	LE	ARMv5r11	custom	Image for Raspberry Pi & Pi Zero (w) [BCM2835 SoC]
+2	YES	rpi01	32	LE	ARMv5r11	custom	Image for Raspberry Pi & Pi Zero (w) [BCM2835 SoC]
+3	YES	amd64	64	LE	i686-64	generic	64 bit AMD & Intel CPUs [UEFI]
 TBD	YES	i586	32	LE	i586	generic	old 32 bit Intel & AMD CPUs [BIOS]
 TBD	YES	i686	32	LE	i686	generic	32 bit Intel & AMD CPUs [BIOS]
 TBD	YES	eee701	32	LE	i586	custom	Image for Asus Eee PC 701 [BIOS]
@@ -11,6 +11,7 @@ TBD	YES	ion330	64	LE	i686-64-atom	custom	Image for nvidia Ion - based Nettops [A
 TBD	YES	bpi0m2	32	LE	ARMv7	custom	Image for Banana Pi Zero M2 [boot.bin]
 TBD	YES	rpi0w2	64	LE	ARMv7	custom	Image for Raspberry Pi Zero 2 W [RP3A0-AU SoC]
 TBD	YES	iatom64	32	LE	i686-64-atom	custom	Image for Intel Atom based Nettops [Atom 330 CPU]
+TBD	YES	t620	64	LE	amd64	custom	Image for HP t620 Thin Client [GX-217GA SoC]
 TBD	YES	xenon	64	BE	ppc64	custom	Image for modded Xbox 360's [Xenon CPU]
 TBD	NO	cell	64	BE	ppc64	custom	'Other OS' ISO for modded Playstation 3 [Cell CPU]
 TBD	NO	opirv2	64	LE	riscv64	custom	Image for Orange Pi RV2 [Ki X1 SoC]
