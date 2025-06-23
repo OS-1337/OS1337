@@ -1,5 +1,5 @@
-# ascii box drawing characters
-## See: https://en.wikipedia.org/wiki/Box-drawing_character
+#	ASCII box drawing characters
+##	See: https://en.wikipedia.org/wiki/Box-drawing_character
 
 ─ 	━ 	│ 	┃ 	┄ 	┅ 	┆ 	┇ 	┈ 	┉ 	┊ 	┋ 	┌ 	┍ 	┎ 	┏
 ┐ 	┑ 	┒ 	┓ 	└ 	┕ 	┖ 	┗ 	┘ 	┙ 	┚ 	┛ 	├ 	┝ 	┞ 	┟
@@ -9,3 +9,7 @@
 ═ 	║ 	╒ 	╓ 	╔ 	╕ 	╖ 	╗ 	╘ 	╙ 	╚ 	╛ 	╜ 	╝ 	╞ 	╟
 ╠ 	╡ 	╢ 	╣ 	╤ 	╥ 	╦ 	╧ 	╨ 	╩ 	╪ 	╫ 	╬ 	╭ 	╮ 	╯
 ╰ 	╱ 	╲ 	╳ 	╴ 	╵ 	╶ 	╷ 	╸ 	╹ 	╺ 	╻ 	╼ 	╽ 	╾ 	╿
+
+#	MDA Hardware Codepage
+##	See:	https://en.wikipedia.org/wiki/Box-drawing_characters#DOS
+░ 	▒ 	▓	█
