@@ -89,3 +89,12 @@ You may want to extend and add additional services to be started automatically t
 ###
 ### Applications and packages
 `#TODO`
+
+####  Graphical Desktops
+OS/1337 is explicitly designed to run in [MDA](https://en.wikipedia.org/wiki/IBM_Monochrome_Display_Adapter) (80x25) text mode.
+- Support for a GUI (regardless if [Xorg](https://en.wikipedia.org/wiki/X.Org_Server) or [Wayland](https://en.wikipedia.org/wiki/Wayland_(protocol)) is *explicitly out of scope* for this project!)
+- The use of [`ncurses`](https://en.wikipedia.org/wiki/Ncurses) to build [`TUI`](https://en.wikipedia.org/wiki/Text-based_user_interface)-based applications is recommended.
+
+####  Dependencies & Libraries
+Applications must statically link their dependencies (or put them in their own subfolder within `/bin/$appname/` directory for that reason alone).
+- There are *no shared libraries* on OS/1337!
