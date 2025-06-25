@@ -34,7 +34,7 @@
   - All Supported Architectures should fit on a 2.500 MB Mini-DVD-DL.
 ---
 ### Long-Term Backlog
-#### Add support for [more architectures](./ideas/architectures.tsv).
+#### Add support for [more architectures](../ideas/architectures.tsv).
 
 ---
 

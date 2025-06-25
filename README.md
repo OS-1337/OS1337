@@ -5,12 +5,12 @@
 ---
 
 ### INDEX
-- #### [Getting Started](docu/getting-started.md)
-- #### [Building OS/1337](docu/building-packages)
-- #### [Project Goals](docu/project-goals.md)
-- #### [Roadmap](docu/roadmap.md) for OS/1337 development
-- #### [Acknowledgements](docu/acknowledgements.md) of external helpers
-- #### [Further Sources](docu/further-sources.md) to read into
+- #### [Getting Started](docu/internal/getting-started.md)
+- #### [Building OS/1337](docu/internal/building-packages.md)
+- #### [Project Goals](docu/internal/project-goals.md)
+- #### [Roadmap](docu/internal/roadmap.md) for OS/1337 development
+- #### [Acknowledgements](docu/internal/acknowledgements.md) of external helpers
+- #### [Further Sources](docu/internal/further-sources.md) to read into
 - #### [License](LICENSE.md)
   - TLDR: It's [0BSD](https://en.wikipedia.org/wiki/BSD_licenses#0-clause_license_(%22BSD_Zero_Clause_License%22)) as created by Rob Landley [and used for toybox](http://www.landley.net/toybox/license.html).
     - ###### Please note that [this does not apply to all parts of OS/1337 - notably the Linux Kernel!](LICENSE.md#important-note)
@@ -32,7 +32,7 @@
 ##
 
 ---
-## [Roadmap](docu/roadmap.md)
+## [Roadmap](docu/internal/roadmap.md)
 #### OS/1337 is still in early development and has yet to make an initial release.
 
 --- 
@@ -81,7 +81,7 @@ To enable reproducible builds and spins.
 - Furthermore delivering transparency.
 
 ---
-## [Project Goals](./docu/project-goals.md)
+## [Project Goals](docu/internal/project-goals.md)
 
 ##	Target Devices
 ### [Supported Architectures are listed here.](./docu/ideas/architectures.tsv) 
@@ -112,7 +112,7 @@ To enable reproducible builds and spins.
     - A *"generic ARM64+UEFI"* image is desireable, but sadly hardware to test on is not available to the maintainers as of writing.
 
 In theory it could also be used as a "Rescue System" or similar, but there are better tools out there like [Rescatux](https://www.supergrubdisk.org/rescatux/) and [Trinity Rescue Kit](https://trinityhome.org/).
-#### See [Project Goals](docu/project-goals.md) for OS/1337
+#### See [Project Goals](docu/internal/project-goals.md) for OS/1337
 ##
 
 ---
@@ -147,7 +147,7 @@ Your experience with any *DOS won't help you here...
 ##
 
 ---
-## [Acknowlegements](docu/acknowledgements.md)
+## [Acknowlegements](docu/internal/acknowledgements.md)
 
 ### Name
 #### OS/1337 
@@ -188,7 +188,7 @@ Ready-to-Use Binary Versions are [only distributed via magnet: links](https://en
 
 ---
 
-## [Further Reading](docu/further-sources.md)
+## [Further Reading](docu/internal/further-sources.md)
 
 ## See Also:
 #### [Prof. Wim Vanderbauwhede](https://labs.ripe.net/author/anastasiya-pak/frugal-computing-for-a-sustainable-internet/)
