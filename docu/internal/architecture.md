@@ -98,3 +98,4 @@ OS/1337 is explicitly designed to run in [MDA](https://en.wikipedia.org/wiki/IBM
 ####  Dependencies & Libraries
 Applications must statically link their dependencies (or put them in their own subfolder within `/bin/$appname/` directory for that reason alone).
 - There are *no shared libraries* on OS/1337!
+- This is explicitly in violation of the [Linux Standard Base](https://en.wikipedia.org/wiki/Linux_Standard_Base) to enable a simpler system design.
