@@ -56,3 +56,36 @@ This not only applies to *commenting code*, but writing documentation so people 
 - This is done to not just aid *reproduceability*, *auditability* and *simplicity* but provide *trust through transparency*.
 
 It should be possible to answer *"Why?"* for every line of code just by common sense, technical dependency and documentation alone.
+
+---
+
+##  Unique Architectural differences of OS/1337
+Due to it's simple nature, OS/1337 doesn't implement a lot of features known from other Linux distros.
+- This is in part intentional, in other ways a necessary sacrifice due to space constraints and complexity concerns.
+  - The closest compareable "distro" it is (*the de-facto upstream*) `mkroot` of `toybox`.
+
+###
+### Runlevels
+Unlike most Linux distributions, OS/1337 has [fewer runlevels](https://en.wikipedia.org/wiki/Runlevel#Linux) and per default only boots into `Runlevel 1` with a single-user (`root`) Non-GUI shell.
+- See [`/etc/init`](build/0.CORE/fdd/fs/etc/init) in the filesystem.
+
+####  Startup
+OS/1337 literally boots by loading it's [`initramfs`](build/0.CORE/fdd/fs) (usually as [`rootfs.cpio.xz`](build/0.CORE/fdd/rootfs.cpio.xz)) and Kernel (usually [`bzImage`](build/0.CORE/fdd/bzImage)  if not a unified `OS1337b`) and kicking off the startup sequence.
+- It'll then autostart with it's [`init file`](build/0.CORE/fdd/fs/etc/init) including splashing the [`welcome message`](build/0.CORE/fdd/fs/welcome.txt).
+- After that, [toybox](build/0.CORE/fdd/fs/bin/toybox)'s `toysh` (a minimalist, [bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell))-compatible shell) is being launched to provide main access.
+  - This is essentially [Runlevel 1 as per LSB 4.1.0](https://en.wikipedia.org/wiki/Runlevel#Linux).
+- It may be intentional on expanded releases of OS/1337 to boot straight into Runlevel 3.
+  - However this will not apply to the [`"CORE" Edition`](build/0.CORE) due to space constraints.
+
+##### init system
+Per default, OS/1337 uses a single [`init file`](build/0.CORE/fdd/fs/etc/init) (alongside [`inittab`](build/0.CORE/fdd/fs/etc/inittab) & [`profile`](build/0.CORE/fdd/fs/etc/profile)) instead of a more complex init system.
+- Support for [SysVinit](https://en.wikipedia.org/wiki/Init#SysV-style) and [systemd](https://en.wikipedia.org/wiki/Systemd) is possible but currently are not in scope.
+
+##### extending the configuration
+You may want to extend and add additional services to be started automatically to your OS71337 installation.
+- To do so, you can add another shell session in `/etc/init` by adding `/bin/toybox oneit -rn -c /dev/console /bin/$service/startup.sh`, where `$app` is the service in question.
+  - It is recommended to use dedicaded subfolders in `/bin/` for ease of maintenance.
+
+###
+### Applications and packages
+`#TODO`
