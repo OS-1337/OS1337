@@ -49,3 +49,4 @@ TBD	NO	niagara	64	BI	SPARCv9	custom	Image for UltraSparc T2 based Servers
 TBD	NO	xbox	32	LE	i586	custom	Image for modded Xbox Classic [P3 CPU]
 TBD	NO	indigo	64	BE	mips3	custom	Image for SGI Workstations [MIPS R4400 and higher]
 TBD	NO	penguin	32	LE	i586	custom	Image for SunPCI Addon-Card [AMD K6-2 + SiS 6306 GPU]
+TBD	NO	nooktouch 905C	32	LE	ARMv7	custom	Nook Touch eBook Reader 905C [uBoot; Firmware Image Available; eInk Display]
