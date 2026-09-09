@@ -6,6 +6,7 @@
 /bin/toybox lsusb
 /bin/toybox echo -ne '\007'
 /bin/toybox sleep 1
+/bin/toybox cat bootsplash.txt
 /bin/toybox echo -ne '\007'
 /bin/toybox uname
 /bin/toybox uname -r
