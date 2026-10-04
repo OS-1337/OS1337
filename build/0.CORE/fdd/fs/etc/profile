@@ -15,6 +15,6 @@ alias ding='printf '\a''
 function isup() { ping -a -b -c 1 -D "$@"; }
 ###	Single Ping attempt to a specific host which has to be specified i.e. "isup 192.168.0.1"
 ### This is done to see if a host "is up"...
-alias pub4='wget -O http://ip4only.me/api/ ; echo;'
-### find public IPv4 adress using http://ip4only.me/
-### NOTE:   Lack of IPv4 connectivity will result in a 404 error!
+alias pubip='wget -O http://api64.ipify.org ; echo;'
+### find public IPv4/Ipv6 Address using ipify.org
+### NOTE:   Lack of IP connectivity will result in a 404 error!
